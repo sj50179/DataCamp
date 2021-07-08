@@ -1,0 +1,1201 @@
+CountryName,CountryCode,IndicatorName,IndicatorCode,Year,Value
+Arab World,ARB,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,133.5609074
+Arab World,ARB,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,87.79760115
+Arab World,ARB,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,6.634579192
+Arab World,ARB,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,81.02332951
+Arab World,ARB,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,3000000
+Arab World,ARB,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,538000000
+Arab World,ARB,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,47.6978881
+Arab World,ARB,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,59563.98922
+Arab World,ARB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,0.6439635479
+Arab World,ARB,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,5.041291754
+Arab World,ARB,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,84.85147294
+Arab World,ARB,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,49541.70729
+Arab World,ARB,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,4.726981388
+Arab World,ARB,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,19.75445192
+Arab World,ARB,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,6.924027387
+Arab World,ARB,Fixed telephone subscriptions,IT.MLT.MAIN,1960,406833
+Arab World,ARB,Fixed telephone subscriptions (per 100 people),IT.MLT.MAIN.P2,1960,0.6167005703
+Arab World,ARB,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,1960,1.929622072
+Arab World,ARB,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,2.990637128
+Arab World,ARB,"International migrant stock, total",SM.POP.TOTL,1960,3324685
+Arab World,ARB,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,47.88324586
+Arab World,ARB,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,45.86294923
+Arab World,ARB,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,46.84705856
+Arab World,ARB,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,4645918769
+Arab World,ARB,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,2468800000
+Arab World,ARB,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,16.46953986
+Arab World,ARB,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,2.260207388
+Arab World,ARB,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,0.4496111471
+Arab World,ARB,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,6.379617628
+Arab World,ARB,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,2.790829553
+Arab World,ARB,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,2.03742709
+Arab World,ARB,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,9.0286779
+Arab World,ARB,Merchandise exports to developing economies within region (% of total merchandise exports),TX.VAL.MRCH.WR.ZS,1960,5.942158134
+Arab World,ARB,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,8.510207388
+Arab World,ARB,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,68.55962411
+Arab World,ARB,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,5130862536
+Arab World,ARB,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,3924800000
+Arab World,ARB,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,12.47197309
+Arab World,ARB,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,0.5809213208
+Arab World,ARB,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,1.113432532
+Arab World,ARB,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,4.741642886
+Arab World,ARB,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,2.769567876
+Arab World,ARB,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,2.389930697
+Arab World,ARB,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,5.872910722
+Arab World,ARB,Merchandise imports from developing economies within region (% of total merchandise imports),TM.VAL.MRCH.WR.ZS,1960,4.22951488
+Arab World,ARB,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,6.028332654
+Arab World,ARB,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,77.4256013
+Arab World,ARB,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,47.24212316
+Arab World,ARB,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Arab World,ARB,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Arab World,ARB,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,298.9357035
+Arab World,ARB,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,357.705584
+Arab World,ARB,"Mortality rate, infant (per 1,000 live births)",SP.DYN.IMRT.IN,1960,159.9502336
+Arab World,ARB,"Mortality rate, under-5 (per 1,000)",SH.DYN.MORT,1960,249.3602248
+Arab World,ARB,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,70000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, France (current US$)",DC.DAC.FRAL.CD,1960,354000000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,2060000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,71540000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,50000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,845270000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,42550000
+Arab World,ARB,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,375000000
+Arab World,ARB,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,9.535449473
+Arab World,ARB,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,7296220000
+Arab World,ARB,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,881990000
+Arab World,ARB,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,7296220000
+Arab World,ARB,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,881990000
+Arab World,ARB,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,3.535464774
+Arab World,ARB,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,33.7129878
+Arab World,ARB,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1960,14.64495806
+Arab World,ARB,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,43.17607968
+Arab World,ARB,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,53.28845555
+Arab World,ARB,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,49.61296007
+Arab World,ARB,"Population, total",SP.POP.TOTL,1960,92495902
+Arab World,ARB,Rural population,SP.RUR.TOTL,1960,63558203
+Arab World,ARB,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,68.71461579
+Arab World,ARB,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,44.76922687
+Arab World,ARB,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,39.51645995
+Arab World,ARB,Urban population,SP.URB.TOTL,1960,28937699
+Arab World,ARB,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,31.28538421
+Caribbean small states,CSS,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,162.8712116
+Caribbean small states,CSS,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,90.54256071
+Caribbean small states,CSS,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,7.87499866
+Caribbean small states,CSS,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,82.28754578
+Caribbean small states,CSS,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,40.01700054
+Caribbean small states,CSS,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,5878.201
+Caribbean small states,CSS,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,1.402640778
+Caribbean small states,CSS,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,25.01559576
+Caribbean small states,CSS,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,71.49095446
+Caribbean small states,CSS,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,2318.736221
+Caribbean small states,CSS,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,0.1247660636
+Caribbean small states,CSS,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,9.813166627
+Caribbean small states,CSS,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,872575670.4
+Caribbean small states,CSS,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,5.520102939
+Caribbean small states,CSS,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,1917147690
+Caribbean small states,CSS,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,457.464712
+Caribbean small states,CSS,GNI (current US$),NY.GNP.MKTP.CD,1960,1783460941
+Caribbean small states,CSS,Gross capital formation (current US$),NE.GDI.TOTL.CD,1960,608620983.9
+Caribbean small states,CSS,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,1960,5.054265971
+Caribbean small states,CSS,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,4.483142877
+Caribbean small states,CSS,"International migrant stock, total",SM.POP.TOTL,1960,187880
+Caribbean small states,CSS,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,64.30710184
+Caribbean small states,CSS,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,60.33687465
+Caribbean small states,CSS,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,62.27179484
+Caribbean small states,CSS,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,623717113.9
+Caribbean small states,CSS,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,563900000
+Caribbean small states,CSS,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,12.34261394
+Caribbean small states,CSS,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,0
+Caribbean small states,CSS,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,3.990069161
+Caribbean small states,CSS,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,0.08866820358
+Caribbean small states,CSS,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,0.124135485
+Caribbean small states,CSS,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,0.1773364072
+Caribbean small states,CSS,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,3.20978897
+Caribbean small states,CSS,Merchandise exports to developing economies within region (% of total merchandise exports),TX.VAL.MRCH.WR.ZS,1960,1.170420287
+Caribbean small states,CSS,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,0.08866820358
+Caribbean small states,CSS,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,83.2771768
+Caribbean small states,CSS,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,824039890
+Caribbean small states,CSS,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,649000000
+Caribbean small states,CSS,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,7.134052388
+Caribbean small states,CSS,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,0
+Caribbean small states,CSS,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,3.220338983
+Caribbean small states,CSS,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,0.06163328197
+Caribbean small states,CSS,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,0.6163328197
+Caribbean small states,CSS,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,0.04622496148
+Caribbean small states,CSS,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,2.665639445
+Caribbean small states,CSS,Merchandise imports from developing economies within region (% of total merchandise imports),TM.VAL.MRCH.WR.ZS,1960,1.24807396
+Caribbean small states,CSS,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,0.06163328197
+Caribbean small states,CSS,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,88.95223421
+Caribbean small states,CSS,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,77.13131491
+Caribbean small states,CSS,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Caribbean small states,CSS,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Caribbean small states,CSS,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,201.4755785
+Caribbean small states,CSS,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,261.1188882
+Caribbean small states,CSS,"Mortality rate, infant (per 1,000 live births)",SP.DYN.IMRT.IN,1960,62.07139908
+Caribbean small states,CSS,"Mortality rate, under-5 (per 1,000)",SH.DYN.MORT,1960,81.9905962
+Caribbean small states,CSS,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,20000
+Caribbean small states,CSS,"Net bilateral aid flows from DAC donors, Netherlands (current US$)",DC.DAC.NLDL.CD,1960,8800000
+Caribbean small states,CSS,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,18030000
+Caribbean small states,CSS,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,9210000
+Caribbean small states,CSS,Net ODA received (% of GNI),DT.ODA.ODAT.GN.ZS,1960,1.018805603
+Caribbean small states,CSS,Net ODA received (% of gross capital formation),DT.ODA.ODAT.GI.ZS,1960,2.98543765
+Caribbean small states,CSS,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,4.335677351
+Caribbean small states,CSS,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,215490000
+Caribbean small states,CSS,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,18170000
+Caribbean small states,CSS,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,215490000
+Caribbean small states,CSS,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,18170000
+Caribbean small states,CSS,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,4.14118746
+Caribbean small states,CSS,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,43.27221339
+Caribbean small states,CSS,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,52.58659915
+Caribbean small states,CSS,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,51.3258682
+Caribbean small states,CSS,"Population, total",SP.POP.TOTL,1960,4190810
+Caribbean small states,CSS,Rural population,SP.RUR.TOTL,1960,2866619
+Caribbean small states,CSS,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,68.40251015
+Caribbean small states,CSS,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,65.67044754
+Caribbean small states,CSS,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,57.88588198
+Caribbean small states,CSS,Urban population,SP.URB.TOTL,1960,1324191
+Caribbean small states,CSS,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,31.59748985
+Central Europe and the Baltics,CEB,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,46.71675161
+Central Europe and the Baltics,CEB,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,57.51102276
+Central Europe and the Baltics,CEB,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,11.33851627
+Central Europe and the Baltics,CEB,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,45.96986684
+Central Europe and the Baltics,CEB,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,0.1003260041
+Central Europe and the Baltics,CEB,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,5000000
+Central Europe and the Baltics,CEB,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,2139000000
+Central Europe and the Baltics,CEB,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,19.11743513
+Central Europe and the Baltics,CEB,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,467450.0281
+Central Europe and the Baltics,CEB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,5.114244335
+Central Europe and the Baltics,CEB,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,41.3375295
+Central Europe and the Baltics,CEB,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,7.0120906
+Central Europe and the Baltics,CEB,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,10.16044614
+Central Europe and the Baltics,CEB,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,19.4282717
+Central Europe and the Baltics,CEB,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,1.573564123
+Central Europe and the Baltics,CEB,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,24.122738
+Central Europe and the Baltics,CEB,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,80.83445707
+Central Europe and the Baltics,CEB,CO2 emissions from solid fuel consumption (kt),EN.ATM.CO2E.SF.KT,1960,363097.5344
+Central Europe and the Baltics,CEB,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,13.53789667
+Central Europe and the Baltics,CEB,CO2 intensity (kg per kg of oil equivalent energy use),EN.ATM.CO2E.EG.ZS,1960,3.687415517
+Central Europe and the Baltics,CEB,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,1.604830282
+Central Europe and the Baltics,CEB,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,8.632176716
+Central Europe and the Baltics,CEB,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,9.562188375
+Central Europe and the Baltics,CEB,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,10000000
+Central Europe and the Baltics,CEB,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,-19.62735069
+Central Europe and the Baltics,CEB,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,2.498617783
+Central Europe and the Baltics,CEB,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,98.24690312
+Central Europe and the Baltics,CEB,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,4.999098879
+Central Europe and the Baltics,CEB,"International migrant stock, total",SM.POP.TOTL,1960,3294191
+Central Europe and the Baltics,CEB,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,70.36772979
+Central Europe and the Baltics,CEB,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,65.41599189
+Central Europe and the Baltics,CEB,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,67.82376209
+Central Europe and the Baltics,CEB,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,934230000
+Central Europe and the Baltics,CEB,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,49.77146955
+Central Europe and the Baltics,CEB,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,4.310501697
+Central Europe and the Baltics,CEB,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,0.7813921625
+Central Europe and the Baltics,CEB,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,3.899468011
+Central Europe and the Baltics,CEB,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,1.68480995
+Central Europe and the Baltics,CEB,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,0.8584609786
+Central Europe and the Baltics,CEB,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,12.0409321
+Central Europe and the Baltics,CEB,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,3.932650418
+Central Europe and the Baltics,CEB,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,38.18759834
+Central Europe and the Baltics,CEB,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,979230000
+Central Europe and the Baltics,CEB,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,49.12431196
+Central Europe and the Baltics,CEB,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,3.053419524
+Central Europe and the Baltics,CEB,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,0.6086414836
+Central Europe and the Baltics,CEB,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,1.953575769
+Central Europe and the Baltics,CEB,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,0.9395136995
+Central Europe and the Baltics,CEB,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,0.404399375
+Central Europe and the Baltics,CEB,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,7.745881968
+Central Europe and the Baltics,CEB,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,2.245641984
+Central Europe and the Baltics,CEB,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,43.12980607
+Central Europe and the Baltics,CEB,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Central Europe and the Baltics,CEB,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Central Europe and the Baltics,CEB,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,124.7497273
+Central Europe and the Baltics,CEB,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,201.0488731
+Central Europe and the Baltics,CEB,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,0
+Central Europe and the Baltics,CEB,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,0
+Central Europe and the Baltics,CEB,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,0
+Central Europe and the Baltics,CEB,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,7.207826841
+Central Europe and the Baltics,CEB,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,18.5242916
+Central Europe and the Baltics,CEB,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,29.22277064
+Central Europe and the Baltics,CEB,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,63.56940252
+Central Europe and the Baltics,CEB,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,51.59015147
+Central Europe and the Baltics,CEB,"Population, total",SP.POP.TOTL,1960,91401583
+Central Europe and the Baltics,CEB,Rural population,SP.RUR.TOTL,1960,50720637
+Central Europe and the Baltics,CEB,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,55.49207886
+Central Europe and the Baltics,CEB,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,76.25118541
+Central Europe and the Baltics,CEB,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,64.99551932
+Central Europe and the Baltics,CEB,Urban population,SP.URB.TOTL,1960,40680946
+Central Europe and the Baltics,CEB,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,44.50792114
+East Asia & Pacific (all income levels),EAS,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,66.01597448
+East Asia & Pacific (all income levels),EAS,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,76.43392368
+East Asia & Pacific (all income levels),EAS,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,6.828242384
+East Asia & Pacific (all income levels),EAS,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,69.23032559
+East Asia & Pacific (all income levels),EAS,"Agriculture, value added (constant 2005 US$)",NV.AGR.TOTL.KD,1960,124165479049
+East Asia & Pacific (all income levels),EAS,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,5.333054695
+East Asia & Pacific (all income levels),EAS,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,286000000
+East Asia & Pacific (all income levels),EAS,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,5344000000
+East Asia & Pacific (all income levels),EAS,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,26.36235038
+East Asia & Pacific (all income levels),EAS,CO2 emissions (kg per 2005 US$ of GDP),EN.ATM.CO2E.KD.GD,1960,1.183269595
+East Asia & Pacific (all income levels),EAS,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,1211359.018
+East Asia & Pacific (all income levels),EAS,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,1.162002504
+East Asia & Pacific (all income levels),EAS,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,31.80772181
+East Asia & Pacific (all income levels),EAS,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,0.7284502699
+East Asia & Pacific (all income levels),EAS,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,14.73739399
+East Asia & Pacific (all income levels),EAS,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,178599.6351
+East Asia & Pacific (all income levels),EAS,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,40.79093156
+East Asia & Pacific (all income levels),EAS,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,3.125088781
+East Asia & Pacific (all income levels),EAS,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,6.70189494
+East Asia & Pacific (all income levels),EAS,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,82.71488049
+East Asia & Pacific (all income levels),EAS,CO2 emissions from solid fuel consumption (kt),EN.ATM.CO2E.SF.KT,1960,1005863.449
+East Asia & Pacific (all income levels),EAS,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,17.5772039
+East Asia & Pacific (all income levels),EAS,CO2 intensity (kg per kg of oil equivalent energy use),EN.ATM.CO2E.EG.ZS,1960,2.858774527
+East Asia & Pacific (all income levels),EAS,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,3.518888229
+East Asia & Pacific (all income levels),EAS,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,20.9828812
+East Asia & Pacific (all income levels),EAS,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,11.56002696
+East Asia & Pacific (all income levels),EAS,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,710000000
+East Asia & Pacific (all income levels),EAS,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,39.24915659
+East Asia & Pacific (all income levels),EAS,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,13.03383839
+East Asia & Pacific (all income levels),EAS,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,16116355238
+East Asia & Pacific (all income levels),EAS,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,-0.7398988618
+East Asia & Pacific (all income levels),EAS,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,5.396794232
+East Asia & Pacific (all income levels),EAS,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,91.14805622
+East Asia & Pacific (all income levels),EAS,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,1023738819060
+East Asia & Pacific (all income levels),EAS,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,153050126353
+East Asia & Pacific (all income levels),EAS,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,982.026842
+East Asia & Pacific (all income levels),EAS,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,146.814138
+East Asia & Pacific (all income levels),EAS,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,12.00139796
+East Asia & Pacific (all income levels),EAS,General government final consumption expenditure (constant 2005 US$),NE.CON.GOVT.KD,1960,204841066577
+East Asia & Pacific (all income levels),EAS,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,17976456412
+East Asia & Pacific (all income levels),EAS,GNI (constant 2005 US$),NY.GNP.MKTP.KD,1960,992655276808
+East Asia & Pacific (all income levels),EAS,GNI (current US$),NY.GNP.MKTP.CD,1960,148699346487
+East Asia & Pacific (all income levels),EAS,GNI per capita (constant 2005 US$),NY.GNP.PCAP.KD,1960,952.2097908
+East Asia & Pacific (all income levels),EAS,Gross domestic income (constant 2005 US$),NY.GDY.TOTL.KD,1960,1059535762396
+East Asia & Pacific (all income levels),EAS,Gross fixed capital formation (% of GDP),NE.GDI.FTOT.ZS,1960,27.76598184
+East Asia & Pacific (all income levels),EAS,Gross fixed capital formation (current US$),NE.GDI.FTOT.CD,1960,43194826695
+East Asia & Pacific (all income levels),EAS,Gross national expenditure (constant 2005 US$),NE.DAB.TOTL.KD,1960,1007580382079
+East Asia & Pacific (all income levels),EAS,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,151536424685
+East Asia & Pacific (all income levels),EAS,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,13.77373725
+East Asia & Pacific (all income levels),EAS,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,17209204584
+East Asia & Pacific (all income levels),EAS,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,0.8538202878
+East Asia & Pacific (all income levels),EAS,"International migrant stock, total",SM.POP.TOTL,1960,8810259
+East Asia & Pacific (all income levels),EAS,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,50.11275733
+East Asia & Pacific (all income levels),EAS,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,46.24698807
+East Asia & Pacific (all income levels),EAS,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,48.29831665
+East Asia & Pacific (all income levels),EAS,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,15317114132
+East Asia & Pacific (all income levels),EAS,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,9709830000
+East Asia & Pacific (all income levels),EAS,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,6.913715276
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,9.537757098
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,2.350195626
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,1.735560767
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,4.202957209
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,3.181106157
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,19.81806067
+East Asia & Pacific (all income levels),EAS,Merchandise exports to developing economies within region (% of total merchandise exports),TX.VAL.MRCH.WR.ZS,1960,1.327520667
+East Asia & Pacific (all income levels),EAS,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,1.925368415
+East Asia & Pacific (all income levels),EAS,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,71.94070339
+East Asia & Pacific (all income levels),EAS,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,17205416749
+East Asia & Pacific (all income levels),EAS,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,11865890000
+East Asia & Pacific (all income levels),EAS,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,5.826280203
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,7.462819898
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,2.305010412
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,1.698397676
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,3.153998562
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,1.546870905
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,15.41452011
+East Asia & Pacific (all income levels),EAS,Merchandise imports from developing economies within region (% of total merchandise imports),TM.VAL.MRCH.WR.ZS,1960,0.3455282326
+East Asia & Pacific (all income levels),EAS,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,4.957993037
+East Asia & Pacific (all income levels),EAS,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,78.41367146
+East Asia & Pacific (all income levels),EAS,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,20.20127232
+East Asia & Pacific (all income levels),EAS,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+East Asia & Pacific (all income levels),EAS,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+East Asia & Pacific (all income levels),EAS,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,326.3663292
+East Asia & Pacific (all income levels),EAS,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,446.8384213
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Austria (current US$)",DC.DAC.AUTL.CD,1960,0
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,0
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,2870000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,520000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,160000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, France (current US$)",DC.DAC.FRAL.CD,1960,21700000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,70000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,-70000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,65570000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",DC.DAC.KORL.CD,1960,0
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Netherlands (current US$)",DC.DAC.NLDL.CD,1960,21900000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Norway (current US$)",DC.DAC.NORL.CD,1960,470000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Portugal (current US$)",DC.DAC.PRTL.CD,1960,780000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Sweden (current US$)",DC.DAC.SWEL.CD,1960,450000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Switzerland (current US$)",DC.DAC.CHEL.CD,1960,0
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,888930000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,15510000
+East Asia & Pacific (all income levels),EAS,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,759000000
+East Asia & Pacific (all income levels),EAS,Net ODA received (% of GNI),DT.ODA.ODAT.GN.ZS,1960,0.5974605948
+East Asia & Pacific (all income levels),EAS,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,0.8522215537
+East Asia & Pacific (all income levels),EAS,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,6376830000
+East Asia & Pacific (all income levels),EAS,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,888420000
+East Asia & Pacific (all income levels),EAS,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,6376830000
+East Asia & Pacific (all income levels),EAS,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,888420000
+East Asia & Pacific (all income levels),EAS,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,3.87839266
+East Asia & Pacific (all income levels),EAS,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,19.27155125
+East Asia & Pacific (all income levels),EAS,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,39.32232683
+East Asia & Pacific (all income levels),EAS,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,56.79928051
+East Asia & Pacific (all income levels),EAS,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,49.20050006
+East Asia & Pacific (all income levels),EAS,"Population, total",SP.POP.TOTL,1960,1042475394
+East Asia & Pacific (all income levels),EAS,"Portfolio equity, net inflows (BoP, current US$)",BX.PEF.TOTL.CD.WD,1960,91840014.71
+East Asia & Pacific (all income levels),EAS,Rural population,SP.RUR.TOTL,1960,799992005
+East Asia & Pacific (all income levels),EAS,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,77.5288678
+East Asia & Pacific (all income levels),EAS,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,43.7368579
+East Asia & Pacific (all income levels),EAS,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,34.02287661
+East Asia & Pacific (all income levels),EAS,Trade (% of GDP),NE.TRD.GNFS.ZS,1960,26.80757564
+East Asia & Pacific (all income levels),EAS,Urban population,SP.URB.TOTL,1960,231871389
+East Asia & Pacific (all income levels),EAS,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,22.4711322
+East Asia & Pacific (developing only),EAP,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,75.04363055
+East Asia & Pacific (developing only),EAP,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,78.57418527
+East Asia & Pacific (developing only),EAP,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,6.480808462
+East Asia & Pacific (developing only),EAP,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,71.9762346
+East Asia & Pacific (developing only),EAP,"Agriculture, value added (% of GDP)",NV.AGR.TOTL.ZS,1960,27.82781861
+East Asia & Pacific (developing only),EAP,"Agriculture, value added (constant 2005 US$)",NV.AGR.TOTL.KD,1960,63737589770
+East Asia & Pacific (developing only),EAP,"Agriculture, value added (current US$)",NV.AGR.TOTL.CD,1960,20892550442
+East Asia & Pacific (developing only),EAP,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,285000000
+East Asia & Pacific (developing only),EAP,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,3535000000
+East Asia & Pacific (developing only),EAP,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,26.63595024
+East Asia & Pacific (developing only),EAP,CO2 emissions (kg per 2005 US$ of GDP),EN.ATM.CO2E.KD.GD,1960,5.650801979
+East Asia & Pacific (developing only),EAP,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,854114.5772
+East Asia & Pacific (developing only),EAP,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,0.9527286724
+East Asia & Pacific (developing only),EAP,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,0.8115615349
+East Asia & Pacific (developing only),EAP,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,6.476518405
+East Asia & Pacific (developing only),EAP,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,57736.05996
+East Asia & Pacific (developing only),EAP,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,91.76724291
+East Asia & Pacific (developing only),EAP,CO2 emissions from solid fuel consumption (kt),EN.ATM.CO2E.SF.KT,1960,780492.6862
+East Asia & Pacific (developing only),EAP,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,22.9736892
+East Asia & Pacific (developing only),EAP,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,9.139871282
+East Asia & Pacific (developing only),EAP,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,5871788785
+East Asia & Pacific (developing only),EAP,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,0.8252862283
+East Asia & Pacific (developing only),EAP,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,5.826617631
+East Asia & Pacific (developing only),EAP,"Final consumption expenditure, etc. (current US$)",NE.CON.TETC.CD,1960,54617761103
+East Asia & Pacific (developing only),EAP,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,151149266999
+East Asia & Pacific (developing only),EAP,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,80074430097
+East Asia & Pacific (developing only),EAP,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,168.6006121
+East Asia & Pacific (developing only),EAP,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,89.31963875
+East Asia & Pacific (developing only),EAP,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,12.4889437
+East Asia & Pacific (developing only),EAP,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,9594960257
+East Asia & Pacific (developing only),EAP,GNI (current US$),NY.GNP.MKTP.CD,1960,78542908414
+East Asia & Pacific (developing only),EAP,Gross capital formation (% of GDP),NE.GDI.TOTL.ZS,1960,33.31976261
+East Asia & Pacific (developing only),EAP,Gross capital formation (current US$),NE.GDI.TOTL.CD,1960,27401782008
+East Asia & Pacific (developing only),EAP,Gross domestic savings (% of GDP),NY.GDS.TOTL.ZS,1960,34.17287044
+East Asia & Pacific (developing only),EAP,Gross domestic savings (current US$),NY.GDS.TOTL.CD,1960,25456668994
+East Asia & Pacific (developing only),EAP,Gross fixed capital formation (% of GDP),NE.GDI.FTOT.ZS,1960,29.59890048
+East Asia & Pacific (developing only),EAP,Gross fixed capital formation (current US$),NE.GDI.FTOT.CD,1960,25557142214
+East Asia & Pacific (developing only),EAP,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,82713572568
+East Asia & Pacific (developing only),EAP,Household final consumption expenditure (current US$),NE.CON.PRVT.CD,1960,44327433612
+East Asia & Pacific (developing only),EAP,"Household final consumption expenditure, etc. (% of GDP)",NE.CON.PETC.ZS,1960,53.2373127
+East Asia & Pacific (developing only),EAP,"Household final consumption expenditure, etc. (current US$)",NE.CON.PETC.CD,1960,41843448027
+East Asia & Pacific (developing only),EAP,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,8.314585054
+East Asia & Pacific (developing only),EAP,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,6327949637
+East Asia & Pacific (developing only),EAP,"Industry, value added (% of GDP)",NV.IND.TOTL.ZS,1960,38.8566024
+East Asia & Pacific (developing only),EAP,"Industry, value added (constant 2005 US$)",NV.IND.TOTL.KD,1960,38493692587
+East Asia & Pacific (developing only),EAP,"Industry, value added (current US$)",NV.IND.TOTL.CD,1960,31254996375
+East Asia & Pacific (developing only),EAP,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,0.4076655408
+East Asia & Pacific (developing only),EAP,"International migrant stock, total",SM.POP.TOTL,1960,3654693
+East Asia & Pacific (developing only),EAP,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,47.35960734
+East Asia & Pacific (developing only),EAP,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,43.8349521
+East Asia & Pacific (developing only),EAP,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,45.54965822
+East Asia & Pacific (developing only),EAP,"Manufacturing, value added (% of GDP)",NV.IND.MANF.ZS,1960,32.85339023
+East Asia & Pacific (developing only),EAP,"Manufacturing, value added (current US$)",NV.IND.MANF.CD,1960,26606765121
+East Asia & Pacific (developing only),EAP,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,6249855162
+East Asia & Pacific (developing only),EAP,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,1889500000
+East Asia & Pacific (developing only),EAP,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,6.467319397
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,6.821910558
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,0.4233924319
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,0.5662873776
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,5.25535856
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,0.492193702
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,6.483196613
+East Asia & Pacific (developing only),EAP,Merchandise exports to developing economies within region (% of total merchandise exports),TX.VAL.MRCH.WR.ZS,1960,6.821910558
+East Asia & Pacific (developing only),EAP,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,1.111405134
+East Asia & Pacific (developing only),EAP,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,80.22757343
+East Asia & Pacific (developing only),EAP,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,6233764499
+East Asia & Pacific (developing only),EAP,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,2367800000
+East Asia & Pacific (developing only),EAP,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,12.92761213
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,1.731565166
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,0.439226286
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,1.15719233
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,2.800067573
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,0.7686460005
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,2.905650815
+East Asia & Pacific (developing only),EAP,Merchandise imports from developing economies within region (% of total merchandise imports),TM.VAL.MRCH.WR.ZS,1960,1.731565166
+East Asia & Pacific (developing only),EAP,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,1.355688825
+East Asia & Pacific (developing only),EAP,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,82.43517189
+East Asia & Pacific (developing only),EAP,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,13.79142636
+East Asia & Pacific (developing only),EAP,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+East Asia & Pacific (developing only),EAP,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+East Asia & Pacific (developing only),EAP,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,353.2525559
+East Asia & Pacific (developing only),EAP,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,478.5370858
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Austria (current US$)",DC.DAC.AUTL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,2810000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,160000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, France (current US$)",DC.DAC.FRAL.CD,1960,21700000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,30000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,-90000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,65530000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",DC.DAC.KORL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Netherlands (current US$)",DC.DAC.NLDL.CD,1960,21900000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Norway (current US$)",DC.DAC.NORL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Portugal (current US$)",DC.DAC.PRTL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Sweden (current US$)",DC.DAC.SWEL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Switzerland (current US$)",DC.DAC.CHEL.CD,1960,0
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,516100000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,15060000
+East Asia & Pacific (developing only),EAP,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,389000000
+East Asia & Pacific (developing only),EAP,Net ODA received (% of GNI),DT.ODA.ODAT.GN.ZS,1960,0.6644011669
+East Asia & Pacific (developing only),EAP,Net ODA received (% of gross capital formation),DT.ODA.ODAT.GI.ZS,1960,1.904401691
+East Asia & Pacific (developing only),EAP,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,0.5820904405
+East Asia & Pacific (developing only),EAP,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,4169450000
+East Asia & Pacific (developing only),EAP,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,521840000
+East Asia & Pacific (developing only),EAP,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,4169450000
+East Asia & Pacific (developing only),EAP,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,521840000
+East Asia & Pacific (developing only),EAP,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,3.631579048
+East Asia & Pacific (developing only),EAP,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,12.26957837
+East Asia & Pacific (developing only),EAP,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,40.33252673
+East Asia & Pacific (developing only),EAP,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,56.03589422
+East Asia & Pacific (developing only),EAP,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,49.00276003
+East Asia & Pacific (developing only),EAP,"Population, total",SP.POP.TOTL,1960,896492991
+East Asia & Pacific (developing only),EAP,Rural population,SP.RUR.TOTL,1960,744827185
+East Asia & Pacific (developing only),EAP,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,83.08232115
+East Asia & Pacific (developing only),EAP,"Services, etc., value added (% of GDP)",NV.SRV.TETC.ZS,1960,33.31557909
+East Asia & Pacific (developing only),EAP,"Services, etc., value added (constant 2005 US$)",NV.SRV.TETC.KD,1960,59785984814
+East Asia & Pacific (developing only),EAP,"Services, etc., value added (current US$)",NV.SRV.TETC.CD,1960,27113926317
+East Asia & Pacific (developing only),EAP,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,38.86331686
+East Asia & Pacific (developing only),EAP,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,29.73935006
+East Asia & Pacific (developing only),EAP,Trade (% of GDP),NE.TRD.GNFS.ZS,1960,17.45445634
+East Asia & Pacific (developing only),EAP,Urban population,SP.URB.TOTL,1960,151665806
+East Asia & Pacific (developing only),EAP,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,16.91767885
+Euro area,EMU,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,27.30183843
+Euro area,EMU,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,54.83363031
+Euro area,EMU,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,15.81031623
+Euro area,EMU,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,38.84744245
+Euro area,EMU,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,3.813288531
+Euro area,EMU,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,1494000000
+Euro area,EMU,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,3794000000
+Euro area,EMU,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,18.83871266
+Euro area,EMU,CO2 emissions (kg per 2005 US$ of GDP),EN.ATM.CO2E.KD.GD,1960,0.4528819787
+Euro area,EMU,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,1128460.869
+Euro area,EMU,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,4.251980961
+Euro area,EMU,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,28.38839502
+Euro area,EMU,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,3.142403616
+Euro area,EMU,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,34.68750841
+Euro area,EMU,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,337782.1837
+Euro area,EMU,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,34.74532379
+Euro area,EMU,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,3.965120524
+Euro area,EMU,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,20.03192474
+Euro area,EMU,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,58.5035917
+Euro area,EMU,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,12.87008499
+Euro area,EMU,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,1.773782007
+Euro area,EMU,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,10.48602008
+Euro area,EMU,Electric power consumption (kWh per capita),EG.USE.ELEC.KH.PC,1960,1214.93366
+Euro area,EMU,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,9.011185844
+Euro area,EMU,Electricity production from coal sources (% of total),EG.ELC.COAL.ZS,1960,47.82505457
+Euro area,EMU,Electricity production from hydroelectric sources (% of total),EG.ELC.HYRO.ZS,1960,38.72542433
+Euro area,EMU,Electricity production from natural gas sources (% of total),EG.ELC.NGAS.ZS,1960,2.194239101
+Euro area,EMU,Electricity production from nuclear sources (% of total),EG.ELC.NUCL.ZS,1960,0.04165373927
+Euro area,EMU,Electricity production from oil sources (% of total),EG.ELC.PETR.ZS,1960,5.038390654
+Euro area,EMU,"Electricity production from oil, gas and coal sources (% of total)",EG.ELC.FOSL.ZS,1960,55.05768432
+Euro area,EMU,"Electricity production from renewable sources, excluding hydroelectric (% of total)",EG.ELC.RNWX.ZS,1960,0.6153912027
+Euro area,EMU,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,2157000000
+Euro area,EMU,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,33.98495187
+Euro area,EMU,Energy use (kg of oil equivalent per capita),EG.USE.PCAP.KG.OE,1960,1402.873124
+Euro area,EMU,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,18.37638438
+Euro area,EMU,Exports of goods and services (constant 2005 US$),NE.EXP.GNFS.KD,1960,238003912909
+Euro area,EMU,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,42295443794
+Euro area,EMU,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,0.3554066852
+Euro area,EMU,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,2.601230585
+Euro area,EMU,Fixed telephone subscriptions,IT.MLT.MAIN,1960,13019254
+Euro area,EMU,Fixed telephone subscriptions (per 100 people),IT.MLT.MAIN.P2,1960,5.023511322
+Euro area,EMU,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,94.02150651
+Euro area,EMU,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,2491732774717
+Euro area,EMU,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,245378012623
+Euro area,EMU,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,9388.717505
+Euro area,EMU,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,924.571393
+Euro area,EMU,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,13.95040786
+Euro area,EMU,General government final consumption expenditure (constant 2005 US$),NE.CON.GOVT.KD,1960,548659811737
+Euro area,EMU,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,36505861484
+Euro area,EMU,GNI (constant 2005 US$),NY.GNP.MKTP.KD,1960,2513602219078
+Euro area,EMU,GNI (current US$),NY.GNP.MKTP.CD,1960,247265503596
+Euro area,EMU,GNI per capita (constant 2005 US$),NY.GNP.PCAP.KD,1960,9471.120416
+Euro area,EMU,Gross domestic income (constant 2005 US$),NY.GDY.TOTL.KD,1960,1620200493566
+Euro area,EMU,Gross national expenditure (constant 2005 US$),NE.DAB.TOTL.KD,1960,2491729668485
+Euro area,EMU,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,245403852776
+Euro area,EMU,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,18.0209777
+Euro area,EMU,Imports of goods and services (constant 2005 US$),NE.IMP.GNFS.KD,1960,237390399476
+Euro area,EMU,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,42212518137
+Euro area,EMU,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,3.399363182
+Euro area,EMU,"International migrant stock, total",SM.POP.TOTL,1960,6146651
+Euro area,EMU,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,72.06325353
+Euro area,EMU,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,66.62202519
+Euro area,EMU,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,69.27371101
+Euro area,EMU,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,34790408252
+Euro area,EMU,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,29696090000
+Euro area,EMU,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,12.21743334
+Euro area,EMU,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,1.907995295
+Euro area,EMU,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,3.025314107
+Euro area,EMU,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,7.862651278
+Euro area,EMU,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,1.672947516
+Euro area,EMU,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,4.302216218
+Euro area,EMU,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,20.08409188
+Euro area,EMU,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,7.627266755
+Euro area,EMU,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,67.69847478
+Euro area,EMU,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,36497283519
+Euro area,EMU,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,30520840000
+Euro area,EMU,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,11.56783365
+Euro area,EMU,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,1.624136164
+Euro area,EMU,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,3.144408869
+Euro area,EMU,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,6.507684585
+Euro area,EMU,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,0.8132148394
+Euro area,EMU,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,4.517011983
+Euro area,EMU,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,17.6172412
+Euro area,EMU,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,8.616407674
+Euro area,EMU,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,70.81492515
+Euro area,EMU,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,30.00297734
+Euro area,EMU,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Euro area,EMU,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Euro area,EMU,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,112.9025317
+Euro area,EMU,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,197.265489
+Euro area,EMU,"Mortality rate, infant (per 1,000 live births)",SP.DYN.IMRT.IN,1960,38.86804644
+Euro area,EMU,"Mortality rate, under-5 (per 1,000)",SH.DYN.MORT,1960,46.70284632
+Euro area,EMU,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,10000
+Euro area,EMU,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,36360000
+Euro area,EMU,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,34350000
+Euro area,EMU,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,2000000
+Euro area,EMU,Net ODA received (% of GNI),DT.ODA.ODAT.GN.ZS,1960,0.01472910676
+Euro area,EMU,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,0.1372286366
+Euro area,EMU,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,330910000
+Euro area,EMU,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,36420000
+Euro area,EMU,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,330910000
+Euro area,EMU,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,36420000
+Euro area,EMU,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,10.22277644
+Euro area,EMU,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,15.55966365
+Euro area,EMU,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1960,15.48138434
+Euro area,EMU,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,25.11832743
+Euro area,EMU,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,64.65889613
+Euro area,EMU,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,52.03234774
+Euro area,EMU,"Population, total",SP.POP.TOTL,1960,265396501
+Euro area,EMU,Rural population,SP.RUR.TOTL,1960,100593376
+Euro area,EMU,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,37.9030531
+Euro area,EMU,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,79.09018272
+Euro area,EMU,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,66.72867551
+Euro area,EMU,Trade (% of GDP),NE.TRD.GNFS.ZS,1960,36.39736208
+Euro area,EMU,"Trademark applications, direct nonresident",IP.TMK.NRES,1960,15625
+Euro area,EMU,"Trademark applications, direct resident",IP.TMK.RESD,1960,64812
+Euro area,EMU,"Trademark applications, total",IP.TMK.TOTL,1960,88768
+Euro area,EMU,Urban population,SP.URB.TOTL,1960,164803125
+Euro area,EMU,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,62.0969469
+Europe & Central Asia (all income levels),ECS,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,42.03005223
+Europe & Central Asia (all income levels),ECS,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,57.77466649
+Europe & Central Asia (all income levels),ECS,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,13.25389537
+Europe & Central Asia (all income levels),ECS,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,44.12749932
+Europe & Central Asia (all income levels),ECS,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,3.501110376
+Europe & Central Asia (all income levels),ECS,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,4188000000
+Europe & Central Asia (all income levels),ECS,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,7227000000
+Europe & Central Asia (all income levels),ECS,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,22.14159867
+Europe & Central Asia (all income levels),ECS,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,30.33008763
+Europe & Central Asia (all income levels),ECS,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,2.598961279
+Europe & Central Asia (all income levels),ECS,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,27.78956264
+Europe & Central Asia (all income levels),ECS,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,30.65676728
+Europe & Central Asia (all income levels),ECS,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,3.743914314
+Europe & Central Asia (all income levels),ECS,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,22.62609542
+Europe & Central Asia (all income levels),ECS,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,67.11510801
+Europe & Central Asia (all income levels),ECS,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,12.6436222
+Europe & Central Asia (all income levels),ECS,CO2 intensity (kg per kg of oil equivalent energy use),EN.ATM.CO2E.EG.ZS,1960,3.320836643
+Europe & Central Asia (all income levels),ECS,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,2.560900341
+Europe & Central Asia (all income levels),ECS,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,10.35299594
+Europe & Central Asia (all income levels),ECS,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,9.462629743
+Europe & Central Asia (all income levels),ECS,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,2208000000
+Europe & Central Asia (all income levels),ECS,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,30.12340501
+Europe & Central Asia (all income levels),ECS,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,19.43570823
+Europe & Central Asia (all income levels),ECS,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,78334307872
+Europe & Central Asia (all income levels),ECS,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,-0.1744208202
+Europe & Central Asia (all income levels),ECS,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,2.83600299
+Europe & Central Asia (all income levels),ECS,Fixed telephone subscriptions,IT.MLT.MAIN,1960,24816993
+Europe & Central Asia (all income levels),ECS,Fixed telephone subscriptions (per 100 people),IT.MLT.MAIN.P2,1960,5.451385093
+Europe & Central Asia (all income levels),ECS,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,93.75287613
+Europe & Central Asia (all income levels),ECS,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,4370694741078
+Europe & Central Asia (all income levels),ECS,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,432682037753
+Europe & Central Asia (all income levels),ECS,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,6547.964873
+Europe & Central Asia (all income levels),ECS,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,648.2234409
+Europe & Central Asia (all income levels),ECS,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,14.06745073
+Europe & Central Asia (all income levels),ECS,General government final consumption expenditure (constant 2005 US$),NE.CON.GOVT.KD,1960,958362576480
+Europe & Central Asia (all income levels),ECS,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,63264987578
+Europe & Central Asia (all income levels),ECS,Gross domestic income (constant 2005 US$),NY.GDY.TOTL.KD,1960,2889581475771
+Europe & Central Asia (all income levels),ECS,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,435302219040
+Europe & Central Asia (all income levels),ECS,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,19.61012905
+Europe & Central Asia (all income levels),ECS,Imports of goods and services (constant 2005 US$),NE.IMP.GNFS.KD,1960,485593246896
+Europe & Central Asia (all income levels),ECS,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,80262304256
+Europe & Central Asia (all income levels),ECS,"International migrant stock, total",SM.POP.TOTL,1960,13355532
+Europe & Central Asia (all income levels),ECS,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,70.14030739
+Europe & Central Asia (all income levels),ECS,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,64.09473536
+Europe & Central Asia (all income levels),ECS,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,67.03002722
+Europe & Central Asia (all income levels),ECS,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,59624941864
+Europe & Central Asia (all income levels),ECS,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,48153120000
+Europe & Central Asia (all income levels),ECS,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,10.89520264
+Europe & Central Asia (all income levels),ECS,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,1.961804344
+Europe & Central Asia (all income levels),ECS,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,3.13686839
+Europe & Central Asia (all income levels),ECS,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,6.039338676
+Europe & Central Asia (all income levels),ECS,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,2.551942636
+Europe & Central Asia (all income levels),ECS,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,5.285244238
+Europe & Central Asia (all income levels),ECS,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,20.02441379
+Europe & Central Asia (all income levels),ECS,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,5.984742006
+Europe & Central Asia (all income levels),ECS,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,69.08038358
+Europe & Central Asia (all income levels),ECS,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,65906121274
+Europe & Central Asia (all income levels),ECS,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,52855260000
+Europe & Central Asia (all income levels),ECS,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,10.1018139
+Europe & Central Asia (all income levels),ECS,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,1.467592819
+Europe & Central Asia (all income levels),ECS,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,2.917514737
+Europe & Central Asia (all income levels),ECS,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,4.681142426
+Europe & Central Asia (all income levels),ECS,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,1.751386712
+Europe & Central Asia (all income levels),ECS,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,4.556954218
+Europe & Central Asia (all income levels),ECS,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,16.11661734
+Europe & Central Asia (all income levels),ECS,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,6.807628985
+Europe & Central Asia (all income levels),ECS,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,73.78156876
+Europe & Central Asia (all income levels),ECS,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,31.08870881
+Europe & Central Asia (all income levels),ECS,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Europe & Central Asia (all income levels),ECS,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Europe & Central Asia (all income levels),ECS,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,126.7070132
+Europe & Central Asia (all income levels),ECS,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,225.6125709
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Austria (current US$)",DC.DAC.AUTL.CD,1960,700000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, France (current US$)",DC.DAC.FRAL.CD,1960,6000000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,43960000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,4710000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,10000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",DC.DAC.KORL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Netherlands (current US$)",DC.DAC.NLDL.CD,1960,-900000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Norway (current US$)",DC.DAC.NORL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Portugal (current US$)",DC.DAC.PRTL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Sweden (current US$)",DC.DAC.SWEL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Switzerland (current US$)",DC.DAC.CHEL.CD,1960,0
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,231630000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,20150000
+Europe & Central Asia (all income levels),ECS,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,157000000
+Europe & Central Asia (all income levels),ECS,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,0.3467772331
+Europe & Central Asia (all income levels),ECS,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,1756430000
+Europe & Central Asia (all income levels),ECS,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,231470000
+Europe & Central Asia (all income levels),ECS,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,1756430000
+Europe & Central Asia (all income levels),ECS,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,231470000
+Europe & Central Asia (all income levels),ECS,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,8.421513565
+Europe & Central Asia (all income levels),ECS,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,15.75913033
+Europe & Central Asia (all income levels),ECS,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1960,14.56297744
+Europe & Central Asia (all income levels),ECS,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,28.03857416
+Europe & Central Asia (all income levels),ECS,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,63.53991228
+Europe & Central Asia (all income levels),ECS,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,52.59538211
+Europe & Central Asia (all income levels),ECS,"Population, total",SP.POP.TOTL,1960,667489033
+Europe & Central Asia (all income levels),ECS,Rural population,SP.RUR.TOTL,1960,297417869
+Europe & Central Asia (all income levels),ECS,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,44.62102255
+Europe & Central Asia (all income levels),ECS,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,76.34252677
+Europe & Central Asia (all income levels),ECS,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,62.85479954
+Europe & Central Asia (all income levels),ECS,Trade (% of GDP),NE.TRD.GNFS.ZS,1960,39.04583727
+Europe & Central Asia (all income levels),ECS,Urban population,SP.URB.TOTL,1960,369124164
+Europe & Central Asia (all income levels),ECS,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,55.37897745
+Europe & Central Asia (developing only),ECA,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,62.24360207
+Europe & Central Asia (developing only),ECA,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,64.47851664
+Europe & Central Asia (developing only),ECA,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,10.00953513
+Europe & Central Asia (developing only),ECA,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,53.51225529
+Europe & Central Asia (developing only),ECA,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,0.8061091873
+Europe & Central Asia (developing only),ECA,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,6000000
+Europe & Central Asia (developing only),ECA,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,1315000000
+Europe & Central Asia (developing only),ECA,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,30.39016452
+Europe & Central Asia (developing only),ECA,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,19.56257594
+Europe & Central Asia (developing only),ECA,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,21.25218066
+Europe & Central Asia (developing only),ECA,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,27.08276798
+Europe & Central Asia (developing only),ECA,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,20.04860267
+Europe & Central Asia (developing only),ECA,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,2.490886999
+Europe & Central Asia (developing only),ECA,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,24.96962333
+Europe & Central Asia (developing only),ECA,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,48.10234542
+Europe & Central Asia (developing only),ECA,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,32.92831106
+Europe & Central Asia (developing only),ECA,CO2 intensity (kg per kg of oil equivalent energy use),EN.ATM.CO2E.EG.ZS,1960,1.573502177
+Europe & Central Asia (developing only),ECA,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,54.99482828
+Europe & Central Asia (developing only),ECA,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,12.07929247
+Europe & Central Asia (developing only),ECA,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,9.911190053
+Europe & Central Asia (developing only),ECA,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,41000000
+Europe & Central Asia (developing only),ECA,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,12.33565394
+Europe & Central Asia (developing only),ECA,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,3.703608812
+Europe & Central Asia (developing only),ECA,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,44.19907189
+Europe & Central Asia (developing only),ECA,"International migrant stock, total",SM.POP.TOTL,1960,1347709
+Europe & Central Asia (developing only),ECA,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,64.37097263
+Europe & Central Asia (developing only),ECA,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,58.17409539
+Europe & Central Asia (developing only),ECA,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,61.2105314
+Europe & Central Asia (developing only),ECA,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,1031700000
+Europe & Central Asia (developing only),ECA,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,45.08481148
+Europe & Central Asia (developing only),ECA,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,3.815062518
+Europe & Central Asia (developing only),ECA,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,0.2946593002
+Europe & Central Asia (developing only),ECA,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,4.676747116
+Europe & Central Asia (developing only),ECA,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,1.148589706
+Europe & Central Asia (developing only),ECA,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,0.1919162547
+Europe & Central Asia (developing only),ECA,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,10.1269749
+Europe & Central Asia (developing only),ECA,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,4.548802947
+Europe & Central Asia (developing only),ECA,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,44.78821363
+Europe & Central Asia (developing only),ECA,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,1178990000
+Europe & Central Asia (developing only),ECA,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,41.15556536
+Europe & Central Asia (developing only),ECA,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,2.536069008
+Europe & Central Asia (developing only),ECA,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,0.1899931297
+Europe & Central Asia (developing only),ECA,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,0.9363947107
+Europe & Central Asia (developing only),ECA,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,1.12384329
+Europe & Central Asia (developing only),ECA,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,0.1933858642
+Europe & Central Asia (developing only),ECA,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,4.979686002
+Europe & Central Asia (developing only),ECA,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,2.147600913
+Europe & Central Asia (developing only),ECA,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,53.86474864
+Europe & Central Asia (developing only),ECA,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,5.637200264
+Europe & Central Asia (developing only),ECA,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Europe & Central Asia (developing only),ECA,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Europe & Central Asia (developing only),ECA,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,155.3381762
+Europe & Central Asia (developing only),ECA,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,257.9886328
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Austria (current US$)",DC.DAC.AUTL.CD,1960,700000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, France (current US$)",DC.DAC.FRAL.CD,1960,6000000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,43960000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,4710000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,10000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",DC.DAC.KORL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Netherlands (current US$)",DC.DAC.NLDL.CD,1960,-1000000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Norway (current US$)",DC.DAC.NORL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Portugal (current US$)",DC.DAC.PRTL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Sweden (current US$)",DC.DAC.SWEL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Switzerland (current US$)",DC.DAC.CHEL.CD,1960,0
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,207500000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,-1880000
+Europe & Central Asia (developing only),ECA,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,155000000
+Europe & Central Asia (developing only),ECA,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,1.334042685
+Europe & Central Asia (developing only),ECA,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,1537690000
+Europe & Central Asia (developing only),ECA,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,207200000
+Europe & Central Asia (developing only),ECA,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,1537690000
+Europe & Central Asia (developing only),ECA,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,207200000
+Europe & Central Asia (developing only),ECA,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,6.121223544
+Europe & Central Asia (developing only),ECA,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,18.06004729
+Europe & Central Asia (developing only),ECA,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1960,9.213690195
+Europe & Central Asia (developing only),ECA,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,32.72484638
+Europe & Central Asia (developing only),ECA,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,61.15393008
+Europe & Central Asia (developing only),ECA,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,52.44333044
+Europe & Central Asia (developing only),ECA,"Population, total",SP.POP.TOTL,1960,155317369
+Europe & Central Asia (developing only),ECA,Rural population,SP.RUR.TOTL,1960,95607546
+Europe & Central Asia (developing only),ECA,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,61.93387131
+Europe & Central Asia (developing only),ECA,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,69.12339296
+Europe & Central Asia (developing only),ECA,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,56.00773402
+Europe & Central Asia (developing only),ECA,Urban population,SP.URB.TOTL,1960,58762823
+Europe & Central Asia (developing only),ECA,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,38.06612869
+European Union,EUU,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,38.99877682
+European Union,EUU,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,55.21141204
+European Union,EUU,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,15.24871549
+European Union,EUU,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,39.79723843
+European Union,EUU,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,2.865259945
+European Union,EUU,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,3702000000
+European Union,EUU,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,6191000000
+European Union,EUU,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,18.57959195
+European Union,EUU,CO2 emissions (kg per 2005 US$ of GDP),EN.ATM.CO2E.KD.GD,1960,0.640494624
+European Union,EUU,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,2359869.701
+European Union,EUU,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,5.762829217
+European Union,EUU,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,30.86842696
+European Union,EUU,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,2.645546909
+European Union,EUU,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,27.0080465
+European Union,EUU,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,594079.3624
+European Union,EUU,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,30.65649388
+European Union,EUU,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,3.629790311
+European Union,EUU,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,22.54868227
+European Union,EUU,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,67.93113697
+European Union,EUU,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,12.29710524
+European Union,EUU,CO2 intensity (kg per kg of oil equivalent energy use),EN.ATM.CO2E.EG.ZS,1960,3.395762339
+European Union,EUU,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,1.627026833
+European Union,EUU,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,10.23288916
+European Union,EUU,Electric power consumption (kWh per capita),EG.USE.ELEC.KH.PC,1960,1427.783281
+European Union,EUU,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,9.245854026
+European Union,EUU,Electricity production from coal sources (% of total),EG.ELC.COAL.ZS,1960,50.96295585
+European Union,EUU,Electricity production from hydroelectric sources (% of total),EG.ELC.HYRO.ZS,1960,27.77182254
+European Union,EUU,Electricity production from natural gas sources (% of total),EG.ELC.NGAS.ZS,1960,1.263251031
+European Union,EUU,Electricity production from nuclear sources (% of total),EG.ELC.NUCL.ZS,1960,0.3858622172
+European Union,EUU,Electricity production from oil sources (% of total),EG.ELC.PETR.ZS,1960,7.103935073
+European Union,EUU,"Electricity production from oil, gas and coal sources (% of total)",EG.ELC.FOSL.ZS,1960,59.33014196
+European Union,EUU,"Electricity production from renewable sources, excluding hydroelectric (% of total)",EG.ELC.RNWX.ZS,1960,0.3528115716
+European Union,EUU,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,2167000000
+European Union,EUU,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,29.58287908
+European Union,EUU,Energy use (kg of oil equivalent per capita),EG.USE.PCAP.KG.OE,1960,1720.316626
+European Union,EUU,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,19.3252273
+European Union,EUU,Exports of goods and services (constant 2005 US$),NE.EXP.GNFS.KD,1960,365001829288
+European Union,EUU,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,66256386442
+European Union,EUU,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,-0.131768078
+European Union,EUU,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,2.584089846
+European Union,EUU,Fixed telephone subscriptions,IT.MLT.MAIN,1960,21758143
+European Union,EUU,Fixed telephone subscriptions (per 100 people),IT.MLT.MAIN.P2,1960,5.987086283
+European Union,EUU,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,95.28032427
+European Union,EUU,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,3684448881975
+European Union,EUU,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,358916354898
+European Union,EUU,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,8997.46696
+European Union,EUU,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,876.477907
+European Union,EUU,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,14.637043
+European Union,EUU,General government final consumption expenditure (constant 2005 US$),NE.CON.GOVT.KD,1960,843843976061
+European Union,EUU,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,54609717875
+European Union,EUU,Gross domestic income (constant 2005 US$),NY.GDY.TOTL.KD,1960,2463550103460
+European Union,EUU,Gross national expenditure (constant 2005 US$),NE.DAB.TOTL.KD,1960,3695363456735
+European Union,EUU,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,360122945657
+European Union,EUU,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,19.45699538
+European Union,EUU,Imports of goods and services (constant 2005 US$),NE.IMP.GNFS.KD,1960,373397935737
+European Union,EUU,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,68006281294
+European Union,EUU,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,3.69317529
+European Union,EUU,"International migrant stock, total",SM.POP.TOTL,1960,11492337
+European Union,EUU,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,72.01509464
+European Union,EUU,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,66.68139341
+European Union,EUU,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,69.27954395
+European Union,EUU,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,53624674345
+European Union,EUU,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,45014920000
+European Union,EUU,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,11.11560345
+European Union,EUU,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,2.017264498
+European Union,EUU,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,3.084532862
+European Union,EUU,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,6.258436092
+European Union,EUU,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,2.621664106
+European Union,EUU,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,5.486869687
+European Union,EUU,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,20.53714635
+European Union,EUU,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,6.210474216
+European Union,EUU,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,68.3472502
+European Union,EUU,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,58808064376
+European Union,EUU,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,48691570000
+European Union,EUU,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,10.35916484
+European Union,EUU,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,1.529833604
+European Union,EUU,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,2.958335498
+European Union,EUU,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,5.039948394
+European Union,EUU,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,1.851655225
+European Union,EUU,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,4.81970493
+European Union,EUU,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,16.97558736
+European Union,EUU,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,7.317673265
+European Union,EUU,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,72.6652478
+European Union,EUU,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,31.72916823
+European Union,EUU,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+European Union,EUU,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+European Union,EUU,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,114.9673217
+European Union,EUU,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,194.1929228
+European Union,EUU,"Mortality rate, infant (per 1,000 live births)",SP.DYN.IMRT.IN,1960,38.25287917
+European Union,EUU,"Mortality rate, under-5 (per 1,000)",SH.DYN.MORT,1960,45.04511788
+European Union,EUU,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,10000
+European Union,EUU,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,36360000
+European Union,EUU,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,34350000
+European Union,EUU,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,2000000
+European Union,EUU,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,0.08893806297
+European Union,EUU,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,330910000
+European Union,EUU,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,36420000
+European Union,EUU,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,330910000
+European Union,EUU,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,36420000
+European Union,EUU,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,9.834965211
+European Union,EUU,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,16.760461
+European Union,EUU,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1960,16.12472946
+European Union,EUU,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,25.66802764
+European Union,EUU,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,64.49700715
+European Union,EUU,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,51.80865404
+European Union,EUU,"Population, total",SP.POP.TOTL,1960,409498462
+European Union,EUU,Rural population,SP.RUR.TOTL,1960,158832585
+European Union,EUU,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,38.78710224
+European Union,EUU,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,78.78939462
+European Union,EUU,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,66.8261527
+European Union,EUU,Trade (% of GDP),NE.TRD.GNFS.ZS,1960,38.78222268
+European Union,EUU,"Trademark applications, direct nonresident",IP.TMK.NRES,1960,22559
+European Union,EUU,"Trademark applications, direct resident",IP.TMK.RESD,1960,78443
+European Union,EUU,"Trademark applications, total",IP.TMK.TOTL,1960,113917
+European Union,EUU,Urban population,SP.URB.TOTL,1960,250665877
+European Union,EUU,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,61.21289776
+Fragile and conflict affected situations,FCS,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,141.0941716
+Fragile and conflict affected situations,FCS,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,82.90707767
+Fragile and conflict affected situations,FCS,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,5.805352196
+Fragile and conflict affected situations,FCS,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,76.86113376
+Fragile and conflict affected situations,FCS,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,3000000
+Fragile and conflict affected situations,FCS,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,314000000
+Fragile and conflict affected situations,FCS,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,46.45863926
+Fragile and conflict affected situations,FCS,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,33028.91259
+Fragile and conflict affected situations,FCS,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,0.2744300386
+Fragile and conflict affected situations,FCS,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,4.327113934
+Fragile and conflict affected situations,FCS,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,82.92973402
+Fragile and conflict affected situations,FCS,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,24709.76904
+Fragile and conflict affected situations,FCS,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,8.429270875
+Fragile and conflict affected situations,FCS,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,23.67051854
+Fragile and conflict affected situations,FCS,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,6.501415798
+Fragile and conflict affected situations,FCS,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,1960,1.790192937
+Fragile and conflict affected situations,FCS,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,3.692921212
+Fragile and conflict affected situations,FCS,"International migrant stock, total",SM.POP.TOTL,1960,4740259
+Fragile and conflict affected situations,FCS,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,42.93587118
+Fragile and conflict affected situations,FCS,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,39.98019397
+Fragile and conflict affected situations,FCS,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,41.41181864
+Fragile and conflict affected situations,FCS,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,2490703361
+Fragile and conflict affected situations,FCS,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,1653541000
+Fragile and conflict affected situations,FCS,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,15.69093237
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,2.987527978
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,0.01064382437
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,6.274171611
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,6.706818881
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,0.4547815869
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,7.378105532
+Fragile and conflict affected situations,FCS,Merchandise exports to developing economies within region (% of total merchandise exports),TX.VAL.MRCH.WR.ZS,1960,8.000769258
+Fragile and conflict affected situations,FCS,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,7.689316443
+Fragile and conflict affected situations,FCS,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,68.93019284
+Fragile and conflict affected situations,FCS,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,3173245899
+Fragile and conflict affected situations,FCS,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,1922913000
+Fragile and conflict affected situations,FCS,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,23.30209427
+Fragile and conflict affected situations,FCS,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,0.5088633755
+Fragile and conflict affected situations,FCS,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,7.003436973
+Fragile and conflict affected situations,FCS,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,5.392339643
+Fragile and conflict affected situations,FCS,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,1.336513924
+Fragile and conflict affected situations,FCS,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,0.910077575
+Fragile and conflict affected situations,FCS,Merchandise imports from developing economies within region (% of total merchandise imports),TM.VAL.MRCH.WR.ZS,1960,5.537692033
+Fragile and conflict affected situations,FCS,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,7.559884405
+Fragile and conflict affected situations,FCS,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,70.25013612
+Fragile and conflict affected situations,FCS,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,34.04261345
+Fragile and conflict affected situations,FCS,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Fragile and conflict affected situations,FCS,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Fragile and conflict affected situations,FCS,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,417.206737
+Fragile and conflict affected situations,FCS,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,474.4788459
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,78500000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,350000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,100000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,3020000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,6090000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,10530000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,21530000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,279930000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,41810000
+Fragile and conflict affected situations,FCS,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,118000000
+Fragile and conflict affected situations,FCS,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,2.61003773
+Fragile and conflict affected situations,FCS,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,2674830000
+Fragile and conflict affected situations,FCS,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,300180000
+Fragile and conflict affected situations,FCS,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,2768680000
+Fragile and conflict affected situations,FCS,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,314130000
+Fragile and conflict affected situations,FCS,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,3.17811566
+Fragile and conflict affected situations,FCS,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,33.66469222
+Fragile and conflict affected situations,FCS,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,42.07730463
+Fragile and conflict affected situations,FCS,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,54.7445797
+Fragile and conflict affected situations,FCS,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,50.33073544
+Fragile and conflict affected situations,FCS,"Population, total",SP.POP.TOTL,1960,120354582
+Fragile and conflict affected situations,FCS,Rural population,SP.RUR.TOTL,1960,98043211
+Fragile and conflict affected situations,FCS,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,82.10802775
+Fragile and conflict affected situations,FCS,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,35.08404834
+Fragile and conflict affected situations,FCS,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,29.58214305
+Fragile and conflict affected situations,FCS,Urban population,SP.URB.TOTL,1960,21364371
+Fragile and conflict affected situations,FCS,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,17.89197225
+Heavily indebted poor countries (HIPC),HPC,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,152.4883601
+Heavily indebted poor countries (HIPC),HPC,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,85.67608247
+Heavily indebted poor countries (HIPC),HPC,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,5.300234675
+Heavily indebted poor countries (HIPC),HPC,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,80.14328132
+Heavily indebted poor countries (HIPC),HPC,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,149000000
+Heavily indebted poor countries (HIPC),HPC,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,48.18065784
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions (kg per 2005 US$ of GDP),EN.ATM.CO2E.KD.GD,1960,0.2821705884
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,19481.40232
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,0.1198920564
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,0.06678539626
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,79.78628673
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,13421.26684
+Heavily indebted poor countries (HIPC),HPC,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,17.14158504
+Heavily indebted poor countries (HIPC),HPC,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,24.7534813
+Heavily indebted poor countries (HIPC),HPC,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,20.20138716
+Heavily indebted poor countries (HIPC),HPC,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,3255316145
+Heavily indebted poor countries (HIPC),HPC,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,-1.7380473
+Heavily indebted poor countries (HIPC),HPC,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,6.715661771
+Heavily indebted poor countries (HIPC),HPC,"Final consumption expenditure, etc. (current US$)",NE.CON.TETC.CD,1960,15834758251
+Heavily indebted poor countries (HIPC),HPC,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,69041222312
+Heavily indebted poor countries (HIPC),HPC,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,17454259580
+Heavily indebted poor countries (HIPC),HPC,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,424.8921091
+Heavily indebted poor countries (HIPC),HPC,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,107.4166551
+Heavily indebted poor countries (HIPC),HPC,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,10.09046867
+Heavily indebted poor countries (HIPC),HPC,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,1586944576
+Heavily indebted poor countries (HIPC),HPC,Gross capital formation (% of GDP),NE.GDI.TOTL.ZS,1960,13.68763902
+Heavily indebted poor countries (HIPC),HPC,Gross domestic income (constant 2005 US$),NY.GDY.TOTL.KD,1960,25636691453173
+Heavily indebted poor countries (HIPC),HPC,Gross domestic savings (% of GDP),NY.GDS.TOTL.ZS,1960,11.86006702
+Heavily indebted poor countries (HIPC),HPC,Gross domestic savings (current US$),NY.GDS.TOTL.CD,1960,1619501328
+Heavily indebted poor countries (HIPC),HPC,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,17760673447
+Heavily indebted poor countries (HIPC),HPC,"Hospital beds (per 1,000 people)",SH.MED.BEDS.ZS,1960,1.515628577
+Heavily indebted poor countries (HIPC),HPC,Household final consumption expenditure (current US$),NE.CON.PRVT.CD,1960,13744540819
+Heavily indebted poor countries (HIPC),HPC,"Household final consumption expenditure, etc. (% of GDP)",NE.CON.PETC.ZS,1960,78.1168646
+Heavily indebted poor countries (HIPC),HPC,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,21.93943446
+Heavily indebted poor countries (HIPC),HPC,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,4037636556
+Heavily indebted poor countries (HIPC),HPC,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,3.887210735
+Heavily indebted poor countries (HIPC),HPC,"International migrant stock, total",SM.POP.TOTL,1960,6384593
+Heavily indebted poor countries (HIPC),HPC,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,40.8621995
+Heavily indebted poor countries (HIPC),HPC,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,38.3305122
+Heavily indebted poor countries (HIPC),HPC,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,39.56408652
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,2960089514
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,1845241000
+Heavily indebted poor countries (HIPC),HPC,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,13.81152923
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,0
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,1.326439202
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,2.96687533
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,3.723090913
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,1.800306843
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,2.449544531
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to developing economies within region (% of total merchandise exports),TX.VAL.MRCH.WR.ZS,1960,3.749970871
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,3.541326038
+Heavily indebted poor countries (HIPC),HPC,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,79.98895537
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,2955508799
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,1842113000
+Heavily indebted poor countries (HIPC),HPC,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,14.8459405
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,0.04342838903
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,1.079466895
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,3.244643515
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,2.578017744
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,3.262557726
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,1.259423282
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from developing economies within region (% of total merchandise imports),TM.VAL.MRCH.WR.ZS,1960,4.287739134
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,2.522646548
+Heavily indebted poor countries (HIPC),HPC,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,79.60689708
+Heavily indebted poor countries (HIPC),HPC,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,35.06151599
+Heavily indebted poor countries (HIPC),HPC,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+Heavily indebted poor countries (HIPC),HPC,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+Heavily indebted poor countries (HIPC),HPC,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,430.4869411
+Heavily indebted poor countries (HIPC),HPC,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,486.7919578
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,86000000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,160000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,100000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,3140000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,5470000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,16650000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,20000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Sweden (current US$)",DC.DAC.SWEL.CD,1960,280000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,266240000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,64900000
+Heavily indebted poor countries (HIPC),HPC,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,89520000
+Heavily indebted poor countries (HIPC),HPC,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,1.728770702
+Heavily indebted poor countries (HIPC),HPC,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,2466560000
+Heavily indebted poor countries (HIPC),HPC,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,280910000
+Heavily indebted poor countries (HIPC),HPC,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,2466560000
+Heavily indebted poor countries (HIPC),HPC,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,280910000
+Heavily indebted poor countries (HIPC),HPC,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,2.858139658
+Heavily indebted poor countries (HIPC),HPC,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,30.27310505
+Heavily indebted poor countries (HIPC),HPC,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,1960,4.663425394
+Heavily indebted poor countries (HIPC),HPC,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,43.21708467
+Heavily indebted poor countries (HIPC),HPC,"Population, ages 15-64 (% of total)",SP.POP.1564.TO.ZS,1960,53.92477567
+Heavily indebted poor countries (HIPC),HPC,"Population, female (% of total)",SP.POP.TOTL.FE.ZS,1960,50.47399587
+Heavily indebted poor countries (HIPC),HPC,"Population, total",SP.POP.TOTL,1960,162491185
+Heavily indebted poor countries (HIPC),HPC,Rural population,SP.RUR.TOTL,1960,142608688
+Heavily indebted poor countries (HIPC),HPC,Rural population (% of total population),SP.RUR.TOTL.ZS,1960,87.7639542
+Heavily indebted poor countries (HIPC),HPC,"Survival to age 65, female (% of cohort)",SP.DYN.TO65.FE.ZS,1960,32.52077534
+Heavily indebted poor countries (HIPC),HPC,"Survival to age 65, male (% of cohort)",SP.DYN.TO65.MA.ZS,1960,27.63613893
+Heavily indebted poor countries (HIPC),HPC,Trade (% of GDP),NE.TRD.GNFS.ZS,1960,42.14082162
+Heavily indebted poor countries (HIPC),HPC,Urban population,SP.URB.TOTL,1960,19882497
+Heavily indebted poor countries (HIPC),HPC,Urban population (% of total),SP.URB.TOTL.IN.ZS,1960,12.2360458
+High income,HIC,"Adolescent fertility rate (births per 1,000 women ages 15-19)",SP.ADO.TFRT,1960,45.28070144
+High income,HIC,Age dependency ratio (% of working-age population),SP.POP.DPND,1960,60.13043418
+High income,HIC,"Age dependency ratio, old (% of working-age population)",SP.POP.DPND.OL,1960,13.26155987
+High income,HIC,"Age dependency ratio, young (% of working-age population)",SP.POP.DPND.YG,1960,46.45314302
+High income,HIC,Alternative and nuclear energy (% of total energy use),EG.USE.COMM.CL.ZS,1960,2.739094966
+High income,HIC,Arms exports (SIPRI trend indicator values),MS.MIL.XPRT.KD,1960,10200000000
+High income,HIC,Arms imports (SIPRI trend indicator values),MS.MIL.MPRT.KD,1960,9032000000
+High income,HIC,"Birth rate, crude (per 1,000 people)",SP.DYN.CBRT.IN,1960,22.18717079
+High income,HIC,CO2 emissions (kg per 2005 US$ of GDP),EN.ATM.CO2E.KD.GD,1960,0.8290258271
+High income,HIC,CO2 emissions (kt),EN.ATM.CO2E.KT,1960,6832548.967
+High income,HIC,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1960,7.528170708
+High income,HIC,"CO2 emissions from electricity and heat production, total (% of total fuel combustion)",EN.CO2.ETOT.ZS,1960,28.50636999
+High income,HIC,CO2 emissions from gaseous fuel consumption (% of total),EN.ATM.CO2E.GF.ZS,1960,13.34495548
+High income,HIC,CO2 emissions from liquid fuel consumption (% of total),EN.ATM.CO2E.LF.ZS,1960,39.43595618
+High income,HIC,CO2 emissions from liquid fuel consumption (kt),EN.ATM.CO2E.LF.KT,1960,2470802.273
+High income,HIC,CO2 emissions from manufacturing industries and construction (% of total fuel combustion),EN.CO2.MANF.ZS,1960,29.49736014
+High income,HIC,"CO2 emissions from other sectors, excluding residential buildings and commercial and public services (% of total fuel combustion)",EN.CO2.OTHX.ZS,1960,2.609792987
+High income,HIC,CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion),EN.CO2.BLDG.ZS,1960,20.24570617
+High income,HIC,CO2 emissions from solid fuel consumption (% of total),EN.ATM.CO2E.SF.ZS,1960,44.29624254
+High income,HIC,CO2 emissions from solid fuel consumption (kt),EN.ATM.CO2E.SF.KT,1960,3180042.189
+High income,HIC,CO2 emissions from transport (% of total fuel combustion),EN.CO2.TRAN.ZS,1960,19.14095629
+High income,HIC,CO2 intensity (kg per kg of oil equivalent energy use),EN.ATM.CO2E.EG.ZS,1960,2.970316571
+High income,HIC,Combustible renewables and waste (% of total energy),EG.USE.CRNW.ZS,1960,2.773336128
+High income,HIC,"Death rate, crude (per 1,000 people)",SP.DYN.CDRT.IN,1960,9.60355289
+High income,HIC,Electric power consumption (kWh per capita),EG.USE.ELEC.KH.PC,1960,2272.976207
+High income,HIC,Electric power transmission and distribution losses (% of output),EG.ELC.LOSS.ZS,1960,9.403301452
+High income,HIC,Electricity production from coal sources (% of total),EG.ELC.COAL.ZS,1960,40.3280893
+High income,HIC,Electricity production from hydroelectric sources (% of total),EG.ELC.HYRO.ZS,1960,27.40535337
+High income,HIC,Electricity production from natural gas sources (% of total),EG.ELC.NGAS.ZS,1960,9.098035204
+High income,HIC,Electricity production from nuclear sources (% of total),EG.ELC.NUCL.ZS,1960,0.1469897998
+High income,HIC,Electricity production from oil sources (% of total),EG.ELC.PETR.ZS,1960,5.906536771
+High income,HIC,"Electricity production from oil, gas and coal sources (% of total)",EG.ELC.FOSL.ZS,1960,55.33266128
+High income,HIC,"Electricity production from renewable sources, excluding hydroelectric (% of total)",EG.ELC.RNWX.ZS,1960,0.150760058
+High income,HIC,"Electricity production from renewable sources, excluding hydroelectric (kWh)",EG.ELC.RNWX.KH,1960,2999000000
+High income,HIC,"Energy imports, net (% of energy use)",EG.IMP.CONS.ZS,1960,16.74183022
+High income,HIC,Energy use (kg of oil equivalent per capita),EG.USE.PCAP.KG.OE,1960,2763.959491
+High income,HIC,Exports of goods and services (% of GDP),NE.EXP.GNFS.ZS,1960,12.76818292
+High income,HIC,Exports of goods and services (current US$),NE.EXP.GNFS.CD,1960,128431571116
+High income,HIC,External balance on goods and services (% of GDP),NE.RSB.GNFS.ZS,1960,-0.0567587273
+High income,HIC,"Fertility rate, total (births per woman)",SP.DYN.TFRT.IN,1960,2.965236969
+High income,HIC,Fixed telephone subscriptions,IT.MLT.MAIN,1960,84879343
+High income,HIC,Fixed telephone subscriptions (per 100 people),IT.MLT.MAIN.P2,1960,11.49148185
+High income,HIC,Fossil fuel energy consumption (% of total),EG.USE.COMM.FO.ZS,1960,94.42732406
+High income,HIC,GDP at market prices (constant 2005 US$),NY.GDP.MKTP.KD,1960,8241659961440
+High income,HIC,GDP at market prices (current US$),NY.GDP.MKTP.CD,1960,1125771200749
+High income,HIC,GDP per capita (constant 2005 US$),NY.GDP.PCAP.KD,1960,9080.743279
+High income,HIC,GDP per capita (current US$),NY.GDP.PCAP.CD,1960,1240.385955
+High income,HIC,General government final consumption expenditure (% of GDP),NE.CON.GOVT.ZS,1960,14.27872836
+High income,HIC,General government final consumption expenditure (current US$),NE.CON.GOVT.CD,1960,167214179629
+High income,HIC,GNI (current US$),NY.GNP.MKTP.CD,1960,1114122779911
+High income,HIC,Gross domestic income (constant 2005 US$),NY.GDY.TOTL.KD,1960,6555214135574
+High income,HIC,Gross fixed capital formation (% of GDP),NE.GDI.FTOT.ZS,1960,23.26362783
+High income,HIC,Gross fixed capital formation (current US$),NE.GDI.FTOT.CD,1960,266150739834
+High income,HIC,Gross national expenditure (current US$),NE.DAB.TOTL.CD,1960,1122611731400
+High income,HIC,Imports of goods and services (% of GDP),NE.IMP.GNFS.ZS,1960,12.82494165
+High income,HIC,Imports of goods and services (current US$),NE.IMP.GNFS.CD,1960,125878093387
+High income,HIC,International migrant stock (% of population),SM.POP.TOTL.ZS,1960,5.277602867
+High income,HIC,"International migrant stock, total",SM.POP.TOTL,1960,35815851
+High income,HIC,"Life expectancy at birth, female (years)",SP.DYN.LE00.FE.IN,1960,71.08546878
+High income,HIC,"Life expectancy at birth, male (years)",SP.DYN.LE00.MA.IN,1960,65.13955807
+High income,HIC,"Life expectancy at birth, total (years)",SP.DYN.LE00.IN,1960,67.99149756
+High income,HIC,Merchandise exports (current US$),TX.VAL.MRCH.CD.WT,1960,100076181119
+High income,HIC,Merchandise exports by the reporting economy (current US$),TX.VAL.MRCH.WL.CD,1960,86025450000
+High income,HIC,"Merchandise exports by the reporting economy, residual (% of total merchandise exports)",TX.VAL.MRCH.RS.ZS,1960,8.732822671
+High income,HIC,Merchandise exports to developing economies in East Asia & Pacific (% of total merchandise exports),TX.VAL.MRCH.R1.ZS,1960,2.7024677
+High income,HIC,Merchandise exports to developing economies in Latin America & the Caribbean (% of total merchandise exports),TX.VAL.MRCH.R3.ZS,1960,5.381151741
+High income,HIC,Merchandise exports to developing economies in Middle East & North Africa (% of total merchandise exports),TX.VAL.MRCH.R4.ZS,1960,4.212358087
+High income,HIC,Merchandise exports to developing economies in South Asia (% of total merchandise exports),TX.VAL.MRCH.R5.ZS,1960,2.811016972
+High income,HIC,Merchandise exports to developing economies in Sub-Saharan Africa (% of total merchandise exports),TX.VAL.MRCH.R6.ZS,1960,3.930825122
+High income,HIC,Merchandise exports to developing economies outside region (% of total merchandise exports),TX.VAL.MRCH.OR.ZS,1960,19.85598448
+High income,HIC,Merchandise exports to economies in the Arab World (% of total merchandise exports),TX.VAL.MRCH.AL.ZS,1960,4.133032725
+High income,HIC,Merchandise exports to high-income economies (% of total merchandise exports),TX.VAL.MRCH.HI.ZS,1960,71.41119285
+High income,HIC,Merchandise imports (current US$),TM.VAL.MRCH.CD.WT,1960,101796671825
+High income,HIC,Merchandise imports by the reporting economy (current US$),TM.VAL.MRCH.WL.CD,1960,87812970000
+High income,HIC,"Merchandise imports by the reporting economy, residual (% of total merchandise imports)",TM.VAL.MRCH.RS.ZS,1960,7.852552988
+High income,HIC,Merchandise imports from developing economies in East Asia & Pacific (% of total merchandise imports),TM.VAL.MRCH.R1.ZS,1960,2.57641895
+High income,HIC,Merchandise imports from developing economies in Latin America & the Caribbean (% of total merchandise imports),TM.VAL.MRCH.R3.ZS,1960,5.444218548
+High income,HIC,Merchandise imports from developing economies in Middle East & North Africa (% of total merchandise imports),TM.VAL.MRCH.R4.ZS,1960,3.213784934
+High income,HIC,Merchandise imports from developing economies in South Asia (% of total merchandise imports),TM.VAL.MRCH.R5.ZS,1960,1.886281719
+High income,HIC,Merchandise imports from developing economies in Sub-Saharan Africa (% of total merchandise imports),TM.VAL.MRCH.R6.ZS,1960,3.595892497
+High income,HIC,Merchandise imports from developing economies outside region (% of total merchandise imports),TM.VAL.MRCH.OR.ZS,1960,17.20786804
+High income,HIC,Merchandise imports from economies in the Arab World (% of total merchandise imports),TM.VAL.MRCH.AL.ZS,1960,5.120974726
+High income,HIC,Merchandise imports from high-income economies (% of total merchandise imports),TM.VAL.MRCH.HI.ZS,1960,74.93957897
+High income,HIC,Merchandise trade (% of GDP),TG.VAL.TOTL.GD.ZS,1960,17.1364647
+High income,HIC,Mobile cellular subscriptions,IT.CEL.SETS,1960,0
+High income,HIC,Mobile cellular subscriptions (per 100 people),IT.CEL.SETS.P2,1960,0
+High income,HIC,"Mortality rate, adult, female (per 1,000 female adults)",SP.DYN.AMRT.FE,1960,132.754501
+High income,HIC,"Mortality rate, adult, male (per 1,000 male adults)",SP.DYN.AMRT.MA,1960,227.6578682
+High income,HIC,"Mortality rate, infant (per 1,000 live births)",SP.DYN.IMRT.IN,1960,37
+High income,HIC,"Mortality rate, under-5 (per 1,000)",SH.DYN.MORT,1960,45.7
+High income,HIC,"Net bilateral aid flows from DAC donors, Austria (current US$)",DC.DAC.AUTL.CD,1960,0
+High income,HIC,"Net bilateral aid flows from DAC donors, Belgium (current US$)",DC.DAC.BELL.CD,1960,0
+High income,HIC,"Net bilateral aid flows from DAC donors, Canada (current US$)",DC.DAC.CANL.CD,1960,1670000
+High income,HIC,"Net bilateral aid flows from DAC donors, Denmark (current US$)",DC.DAC.DNKL.CD,1960,530000
+High income,HIC,"Net bilateral aid flows from DAC donors, European Union institutions (current US$)",DC.DAC.CECL.CD,1960,0
+High income,HIC,"Net bilateral aid flows from DAC donors, France (current US$)",DC.DAC.FRAL.CD,1960,2000000
+High income,HIC,"Net bilateral aid flows from DAC donors, Germany (current US$)",DC.DAC.DEUL.CD,1960,69920000
+High income,HIC,"Net bilateral aid flows from DAC donors, Italy (current US$)",DC.DAC.ITAL.CD,1960,430000
+High income,HIC,"Net bilateral aid flows from DAC donors, Japan (current US$)",DC.DAC.JPNL.CD,1960,50000
+High income,HIC,"Net bilateral aid flows from DAC donors, Korea, Rep. (current US$)",DC.DAC.KORL.CD,1960,0
+High income,HIC,"Net bilateral aid flows from DAC donors, Netherlands (current US$)",DC.DAC.NLDL.CD,1960,300000
+High income,HIC,"Net bilateral aid flows from DAC donors, Norway (current US$)",DC.DAC.NORL.CD,1960,470000
+High income,HIC,"Net bilateral aid flows from DAC donors, Portugal (current US$)",DC.DAC.PRTL.CD,1960,780000
+High income,HIC,"Net bilateral aid flows from DAC donors, Sweden (current US$)",DC.DAC.SWEL.CD,1960,450000
+High income,HIC,"Net bilateral aid flows from DAC donors, Switzerland (current US$)",DC.DAC.CHEL.CD,1960,0
+High income,HIC,"Net bilateral aid flows from DAC donors, Total (current US$)",DC.DAC.TOTL.CD,1960,558740000
+High income,HIC,"Net bilateral aid flows from DAC donors, United Kingdom (current US$)",DC.DAC.GBRL.CD,1960,35140000
+High income,HIC,"Net bilateral aid flows from DAC donors, United States (current US$)",DC.DAC.USAL.CD,1960,447000000
+High income,HIC,Net ODA received (% of GNI),DT.ODA.ODAT.GN.ZS,1960,0.04913821079
+High income,HIC,Net ODA received per capita (current US$),DT.ODA.ODAT.PC.ZS,1960,0.6031968971
+High income,HIC,Net official development assistance and official aid received (constant 2012 US$),DT.ODA.ALLD.KD,1960,3809330000
+High income,HIC,Net official development assistance and official aid received (current US$),DT.ODA.ALLD.CD,1960,547460000
+High income,HIC,Net official development assistance received (constant 2012 US$),DT.ODA.ODAT.KD,1960,3809330000
+High income,HIC,Net official development assistance received (current US$),DT.ODA.ODAT.CD,1960,547460000
+High income,HIC,Number of infant deaths,SH.DTH.IMRT,1960,710054
+High income,HIC,Number of under-five deaths,SH.DTH.MORT,1960,872630
+High income,HIC,Population ages 65 and above (% of total),SP.POP.65UP.TO.ZS,1960,8.303280728
+High income,HIC,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,1960,18.32194233
+High income,HIC,"Population, ages 0-14 (% of total)",SP.POP.0014.TO.ZS,1960,29.08507592
