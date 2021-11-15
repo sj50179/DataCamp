@@ -1,6 +1,4 @@
-# DataCamp
-
-[datacamp.com](https://learn.datacamp.com/)
+# [datacamp.com](https://learn.datacamp.com/)
 
 ### My Study Notes
 
