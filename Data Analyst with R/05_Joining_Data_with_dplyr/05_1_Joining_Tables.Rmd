@@ -1,0 +1,203 @@
+---
+title: "5-1. Joining Tables"
+output: html_notebook
+---
+
+```{r}
+library(dplyr)
+```
+
+## The inner_join verb
+
+### LEGO dataset
+In this course, I will work with a fun dataset about the construction toys known as LEGOs. The data comes from the Rebrickable website, and has tons of fun information about the sets, parts, themes, and colors that make up LEGO history. The dataset is fascinating, but it's spread across many tables.
+
+### The sets table
+In this chapter I'll be focusing on one dplyr verb, inner join, and I'll start by working with the **sets** table in the LEGO data. 
+
+```{r}
+sets
+```
+This table contains one row for each of the 4,977 LEGO sets, starting with sets like "Medium Gift Set" back in 1949. Notice that there is a column that's not useful on its own: theme-underscore-id. That's because the useful information- the theme name- is in a separate table, called themes.
+
+### Linking two tables
+```{r}
+themes
+```
+The theme id variable in the **sets** table links to the id variable in the **themes** table. For any individual set, it's possible to find a theme that matches it.
+
+###  Inner join
+To see the theme that each set is associated with, I'll need to join the two tables. To do this, I use **inner join**. 
+```{r}
+sets %>%
+  inner_join(themes, by = c("theme_id" = "id"))
+```
+This joins the first table "**sets**" to the second table "**themes**". Notice that the argument by equals `theme_id` equals `id`. That tells inner join how to match the tables: linking **theme id** in the first table to **id** in the second table. Notice that in the output, I've combined the two tables, combining each set with its theme. But because both tables had a variable called name, I end up with `name.x`, with the set's name, and `name.y`, with the theme's name, because I can not have two variables with the same name. Inner join lets me customize this to be more readable.
+
+### Customizing your join
+Add another argument, `suffix = c("_set", "_theme")`. This appends `_set` or `_theme` to the shared columns, which gets the much more readable name `_set` and `name_theme`.
+```{r}
+sets %>%
+  inner_join(themes, by = c("theme_id" = "id"), suffix = c("_set", "_theme"))
+```
+### Most common themes
+Now I can answer interesting questions about the data. For instance, I could find out what the most common themes are in LEGO history by piping again to count `name_theme`, with `sort=TRUE`. 
+```{r}
+sets %>%
+  inner_join(themes, by = c("theme_id" = "id"), suffix = c("_set", "_theme")) %>%
+  count(name_theme, sort = TRUE)
+```
+
+This pattern of taking two tables, finding a link between them, and joining them together is very common, and will enable me to make a lot of interesting discoveries.
+
+### Other LEGO tables
+In the exercises I'll use two new tables from the LEGO dataset, **parts** and **part_categories**, and then practice joining them together.
+```{r}
+parts
+```
+```{r}
+part_categories
+```
+
+### Part
+A part is a shape, like a gear, a 2 by 4 brick, or a figurine.
+
+## Exercise
+### Joining parts and part categories
+The `inner_join` is the key to bring tables together. To use it, I need to provide the two tables that must be joined and the columns on which they should be joined.
+
+In this exercise, I'll join a list of LEGO parts, available as `parts`, with these parts' corresponding categories, available as `part_categories`. For example, the part `Sticker Sheet 1 for Set 1650-1` is from the `Stickers` part category. I can join these tables to see all parts' categories.
+
+- Add the correct joining verb, the name of the second table, and the joining column for the second table.
+- Use the `suffix` argument to add `"_part"` and `"_category"` suffixes.
+```{R}
+parts %>%
+  inner_join(part_categories, by = c("part_cat_id" = "id"), suffix = c("_part", "_category"))
+```
+## Joining with a one-to-many relationship
+I joined the sets table to the themes table. Each set has exactly one theme, so the joined table has exactly as many observations as the sets table: 4,977.
+
+### The inventories table
+But not all joins work that way. There is a new table, **inventories**. An inventory represents a product that's made up of some combination of parts. 
+```{r}
+inventories
+```
+
+Notice that **inventories** has the variable `set_num`, which suggests it links to the `"set_num"` variable from the **sets** table.
+
+###  Joining sets and inventories
+Let's try using that variable to join sets to inventories. Something convenient is that when the variables I'm joining by have the same name, I can just write `by = "set_num"`. This is in contrast to the way I earlier did `c("theme_id" = "id")`. 
+```{r}
+sets %>%
+  inner_join(inventories, by = "set_num")
+```
+Notice that while I started with 4,977 sets, the joined result now has 5,056. This is because each set can have multiple versions, each of which gets its own inventory item. For instance, I can see that `Medium Gift Set` from `1949` has three versions, and `Single 2 x 4 Brick` has five versions.
+
+### Filtering the joined table
+One way I can confirm our understanding is to filter this joined table for only the first version. 
+```{r}
+sets %>%
+  inner_join(inventories, by = "set_num") %>%
+  filter(version == 1)
+```
+Notice this results in a table with 4,976 observations, compared to 4,977. This means there's one set that doesn't have a version 1, which is probably a data quality issue. An inner join keeps an observation only if it has an exact match between the first and the second tables.
+
+### Parts and pieces
+In the exercises, I'll be returning to the parts table. But I'll also see each LEGO piece has another attribute besides its part: its color.
+
+### The inventory parts
+```{r}
+inventory_parts
+```
+The inventory parts table is what combines a part and a color. That combination describes a single LEGO piece, which in turn is a part of an inventory.
+
+## Exercise
+### Joining parts and inventories
+The LEGO data has many tables that can be joined together. Often times, some of the things I care about may be a few tables away. For now, I know that `parts` is a list of all LEGO parts, and a new table, `inventory_parts`, has some additional information about those parts, such as the `color_id` of each part I would find in a specific LEGO kit.
+
+Join these two tables together to observe how joining ``parts` with `inventory_parts` increases the size of your table because of the one-to-many relationship that exists between these two tables.
+
+- Connect the `parts` and `inventory_parts` tables by their **part numbers** using an inner join.
+```{r}
+parts %>%
+  inner_join(inventory_parts, by = "part_num")
+```
+*Recall, this is an example of a one-to-many relationship. Notice that the table increased in the number of rows after the join.*
+
+### Joining in either direction
+An `inner_join` works the same way with either table in either position. The table that is specified first is arbitrary, since I will end up with the same information in the resulting table either way.
+
+Prove this by joining the same two tables from the last exercise in the opposite order.
+
+- Connect the `inventory_parts` table with the `parts` tables.
+```{r}
+inventory_parts %>%
+  inner_join(parts, by = "part_num")
+```
+*This is the same join as the last exercise, but the order of the tables is reversed. For an `inner_join`, either direction will yield a table that contains the same information! Note that the columns will appear in a different order depending on which table comes first.*
+
+## Joining three or more tables
+In the last part, I joined the `sets` table with the `inventories` table. Notice that the joined version keeps the theme id.
+
+### The themes table
+What if I wanted to join the theme names, from the themes table, into this table as well?
+
+### Adding another join
+I can pipe any number of joins together, just like I can combine other dplyr verbs. With this second join, remember that I'll have to specify that I'm matching `theme_id` to `id` in the themes table. 
+```{r}
+sets %>%
+  inner_join(inventories, by = "set_num") %>%
+  inner_join(themes, by = c("theme_id" = "id"))
+```
+That first join between ``sets` and `themes` didn't need a suffix argument, because none of the variable names were duplicated. But this new join brings in a second name column.
+
+### Recall: suffix
+So recall that I can add suffix, and specify that we want the suffixes `"_set"` and `"_theme"`. 
+```{r}
+sets %>%
+  inner_join(inventories, by = "set_num") %>%
+  inner_join(themes, by = c("theme_id" = "id"), suffix = c("_set", "_theme"))
+```
+Notice that in a series of joins, each will usually have different "by" arguments, and often they'll have different suffix arguments. This will depend on the details of the tables I'm joining.
+
+### Joining more than three tables
+In the exercises, I'll join not just three, but four tables together: `sets`, `inventories`, `inventory_parts`, and `colors`. This will let me answer questions like "what are the most common colors of parts in Lego sets?"
+
+## Exercise
+### Joining three tables
+I can string together multiple joins with `inner_join` and the pipe (`%>%`).
+
+I'll now connect `sets`, a table that tells about each LEGO kit, with `inventories`, a table that tells the specific version of a given set, and finally to `inventory_parts`, a table which tells how many of each part is available in each LEGO kit.
+
+So if I was building a Batman LEGO set, `sets` would tell me the name of the set, `inventories` would give me IDs for each of the versions of the set, and `inventory_parts` would tell me how many of each part would be in each version.
+
+- Combine the `inventories` table with the `sets` table.
+- Next, join the `inventory_parts` table to the table I created in the previous join by the inventory IDs.
+```{r}
+sets %>%
+  inner_join(inventories, by = "set_num") %>%
+  inner_join(inventory_parts, by = c("id" = "inventory_id"))
+```
+### What's the most common color?
+Now join an additional table, `color`s, which will tell the color of each part in each set, so that I can answer the question, "what is the most common color of a LEGO piece?"
+
+- Inner join the `colors` table using the `color_id` column from the previous join and the `id` column from `colors`; use the suffixes `"_set"` and `"_color"`.
+```{r}
+sets %>%
+  inner_join(inventories, by = "set_num") %>%
+  inner_join(inventory_parts, by = c("id" = "inventory_id")) %>%
+  inner_join(colors, by = c("color_id" = "id"), suffix = c("_set", "_color"))
+```
+- Count the `name_color` column and sort the results so the most prominent colors appear first.
+```{r}
+sets %>%
+	inner_join(inventories, by = "set_num") %>%
+	inner_join(inventory_parts, by = c("id" = "inventory_id")) %>%
+	inner_join(colors, by = c("color_id" = "id"), suffix = c("_set", "_color")) %>%
+	count(name_color, sort = TRUE)
+```
+*Notice that Black and White are the two most prominent colors.*
+
+
+
+
