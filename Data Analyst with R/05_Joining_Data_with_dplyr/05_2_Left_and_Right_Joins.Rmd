@@ -1,0 +1,311 @@
+---
+title: "5-2. Left and Right Joins"
+output: html_notebook
+---
+
+```{r}
+library(dplyr)
+```
+
+## The left_join verb
+
+### Batmobile vs. Batwing
+What's the difference between the Batmobile and the Batwing?
+
+Well, they're both vehicles owned by the superhero Batman, though the Batmobile is a car and the Batwing can fly. I might not be able to tell which one would win in a fight, but, with the datasets I'm using, I can look at what parts are included in one of their LEGO sets but not the other.
+
+### Recall: inner join
+Let's start with an inner join combining the inventory parts and inventories tables. For simplicity, I'm also using select to remove the id and version variables, since I don't need them, and arrange to sort in descending order of quantity, which represents how many of a piece appear in each set.
+```{r}
+inventory_parts_joined <- inventories %>%
+  inner_join(inventory_parts, by = c("id" = "inventory_id")) %>%
+  select(-id, -version) %>%
+  arrange(desc(quantity))
+
+inventory_parts_joined
+```
+
+### Filter for LEGO sets
+Now, I can use the filter verb to extract just two LEGO sets- the *Batmobile* and the *Batwing*- based on their set numbers
+```{r}
+batmobile <- inventory_parts_joined %>%
+  filter(set_num == "7784-1") %>%
+  select(-set_num)
+```
+```{r}
+
+batwing <- inventory_parts_joined %>%
+  filter(set_num == "70916-1") %>%
+  select(-set_num)
+```
+### Comparing tables
+This results in two tables, each containing three variables, that look like this.
+```{r}
+batmobile
+```
+```{r}
+batwing
+```
+### Parts and pieces
+Each observation is a LEGO piece. Recall that a piece is a combination of a part and a color, like a gray wheel or a red 2 by 4 brick. For now, I'm leaving out the part and color names.
+
+### Joining with multiple columns
+I can find out what pieces are in common between the *Batmobile* and the *Batwing* using an inner join. But, unlike the joins in Chapter 1, there are two columns I need to join on. Each of these observations isn't just a part, but a combination of a part and a color.
+```{r}
+batmobile %>%
+  inner_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing"))
+```
+Notice, I can specify this with `by = c("part_num", "color_id")`. That specifies I want to join on both columns. Notice, I also added the suffixes batmobile and batwing, so that I can tell the quantity columns apart. This shows that the first part appears 28 times in the *Batmobile* set, but only 17 times in the *Batwing* set.
+
+### The left join
+But what if I wanted to keep parts that were in the *Batmobile* but not the *Batwing*? An inner join keeps only observations that appear in both tables. But if I want to keep all the observations in one of the tables, I can use a different dplyr verb: **left join**.
+```{r}
+batmobile %>%
+  left_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing"))
+```
+Notice that the quantity batwing column now has `NA`s in it, representing missing values. For instance, the first piece, with part num `3023` and color id `72`, appears 62 times in the *Batmobile* but never appears in the *Batwing.*
+
+### Join review
+I didn't have that piece in the inner join: since it wasn't in the second table, it didn't appear in the join. That's what left join means: I keep all the observations in the first, or "left", of the two tables, whether or not it occurs in the second, or "right", table. With a few more joins to the colors and parts tables, I could add the details on each part and color.
+
+## Exercise
+### Left joining two sets by part and color
+Now I'll practice the ability to do this looking at two new sets: the Millennium Falcon and Star Destroyer sets.
+```{r}
+millennium_falcon <- inventory_parts_joined %>%
+  filter(set_num == "7965-1")
+
+star_destroyer <- inventory_parts_joined %>%
+  filter(set_num == "75190-1")
+```
+
+- Left join the `star_destroyer` and `millennium_falcon` tables on the `part_num` and `color_id` columns with the suffixes `_falcon` and `_star_destroyer`.
+
+```{r}
+millennium_falcon %>%
+  left_join(star_destroyer, by = c("part_num", "color_id"), suffix = c("_falcon", "_star_destroyer"))
+```
+*Using this table, and the `part_num` or `color_id` columns, I can determine the frequency that a specific part or piece appears in the Millennium Falcon and Star Destroyer sets.*
+
+### Left joining two sets by color
+In the last exercise, I joined two sets based on their part and color. 
+
+What if I joined the datasets by color alone? 
+
+- Sum the `quantity` column by `color_id` in the Millennium Falcon dataset.
+```{r}
+millennium_falcon_colors <- millennium_falcon %>%
+  group_by(color_id) %>%
+  summarize(total_quantity = sum(quantity))
+```
+
+- Sum the `quantity` column by `color_id` in the Star Destroyer dataset.
+```{r}
+star_destroyer_colors <- star_destroyer %>%
+  group_by(color_id) %>%
+  summarize(total_quantity = sum(quantity))
+```
+
+- Left join the two datasets, `millennium_falcon_colors` and `star_destroyer_colors`, using the `color_id` column and the `_falcon` and `_star_destroyer` suffixes.
+```{r}
+millennium_falcon_colors %>%
+  left_join(star_destroyer_colors, by = "color_id", suffix = c("_falcon", "_star_destroyer"))
+```
+*Sometimes, the level on which I'm comparing two sets- by piece or just by color- will require some thought and some pre-processing.*
+
+### Finding an observation that doesn't have a match
+Left joins are really great for testing the assumptions about a data set and ensuring the data has integrity.
+
+For example, the `inventories` table has a `version` column, for when a LEGO kit gets some kind of change or upgrade. It would be fair to assume that all `sets` (which joins well with `inventories`) would have at least a version 1. But test this assumption out in the following exercise.
+
+- Use a `left_join` to join together `sets` and `inventory_version_1` using their common column.
+- `filter` for where the `version` column is `NA` using `is.na`.
+```{r}
+inventory_version_1 <- inventories %>%
+  filter(version == 1)
+
+sets %>%
+  left_join(inventory_version_1, by = "set_num") %>%
+  filter(is.na(version))
+```
+*It looks like there are cases where a set does not have an original version.*
+
+## The right-join verb
+### The left and right join
+Once I've seen a left join, it might not surprise that there's also a right join. Just as left joins keep all the observations from the first (or "left") table, whether or not they appear in the second (or "right") table, a right join keeps all the observations in the second (or "right") table, whether or not they appear in the first table.
+
+### Mirror images
+```{r}
+batmobile %>%
+   right_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing"))
+```
+Notice that with a right join of `batmobile` on `batwing`, I see `NA`s in the quantity `batmobile` column, but not quantity `batwing`. This shows that left joins and right joins are mirror images of each other. Besides comparing the *Batmobile* and *Batwing* LEGO sets, let's consider another case where I'd use right join in practice, to determine how often each theme appears among the sets in the database.
+
+### Count and sort
+I can use dplyr's `count` verb to calculate the number of sets that has each `theme_id`, along with `sort=TRUE` to arrange them. 
+```{r}
+sets %>%
+  count(theme_id, sort=TRUE)
+```
+Knowing the most common is theme id `501` is not very helpful, so let's add more information, like the name of each theme.
+
+### Inner join
+I could use an inner join for this. 
+```{r}
+sets %>%
+  count(theme_id, sort=TRUE) %>%
+  inner_join(themes, by = c("theme_id" = "id"))
+```
+That tells that the most common theme is called "Gear", and the second most common is called "Friends". But this is missing something: specifically, any themes that never occurred in any set in this database. That wouldn't have a zero in this data: it just would not appear. But a right join would keep those themes that never occurred.
+
+### Right join
+```{r}
+sets %>%
+  count(theme_id) %>%
+  right_join(themes, by = c("theme_id" = "id"))
+```
+Notice this has `NA`s in the n column for anything that wasn't in the count table. Now, I know from the data that those `NA`s in n should really be zeros.
+
+### Replace NAs
+So let's use a new verb from the `tidyr` package: `replace_ _na`. By piping the result to `replace_na(list(n = 0))`, I can replace any `NA` in the n column with zero.
+```{r}
+library(tidyr)
+
+sets %>%
+  count(theme_id) %>%
+  right_join(themes, by = c("theme_id" = "id")) %>%
+  replace_na(list(n = 0))
+```
+Notice that the observation now has a zero rather than an NA. The `replace_na` verb often appears when doing joins.
+
+## Exercise
+### Counting part colors
+Sometimes I'll want to do some processing *before* I do a join, *and* prioritize keeping the second (right) table's rows instead.
+
+In the example below, I'll count the `part_cat_id` from `parts`, before using a `right_join` to join with `part_categories`. The reason I do this is because I don't only want to know the count of `part_cat_id` in `parts`, but I also want to know if there are any `part_cat_ids` *not* present in `parts`.
+
+- Use the `count` verb to count each `part_cat_id` in the `parts` table.
+- Use a `right_join` to join `part_categories`. I'll need to use the `part_cat_id` from the count and the `id` column from `part_categories`.
+- `filter` for where the column `n` is NA.
+```{r}
+parts %>%
+  count(part_cat_id) %>%
+  right_join(part_categories, by = c("part_cat_id" = "id")) %>%
+  filter(is.na(n))
+```
+*From this filter, I found an instance where a part category is present in one table, but missing from the other table. It's important to understand which entries would be impacted by `replace_na()`, so that I know which entries I would be omitting by using that function.*
+
+### Cleaning up your count
+In both left and right joins, there is the opportunity for there to be `NA` values in the resulting table. Fortunately, the `replace_na` function can turn those `NA`s into meaningful values.
+
+In the last exercise, I saw that the `n` column had `NA`s after the right_join. Let's use the `replace_na` column, which takes a `list` of column names and the values with which `NA`s should be replaced, to clean up the table.
+
+- Use `replace_na` to replace `NA`s in the `n` column with the value `0`.
+```{r}
+parts %>%
+  count(part_cat_id) %>%
+  right_join(part_categories, by = c("part_cat_id" = "id")) %>%
+  replace_na(list(n = 0))
+```
+
+## Joining tables to themselves
+Let's take another look at the themes table.
+```{r}
+themes
+```
+
+### The themes table
+Notice that besides the theme id and the name, there's a column `parent_id.` That means the table has a relationship to itself. This is a **hierarchical** table, and having a `parent_id` is a common way to represent this hierarchical relationship. 
+
+For example, the themes "Arctic Technic", "Competition", "Expert Builder", and "Model" all have the parent id 1. Based on the first column, I can see that that ID corresponds to the first theme, called "Technic". I can also see that the next five rows have the parent id 5, which I can see corresponds to the theme "Model".
+
+### The hierarchy of themes
+The Technic theme has four children, and its child theme Model also has five children themes. How could I explore the relationship between themes and parents? Well, I've already learned to join two tables together. But did I know I can also join a table to itself, by matching each theme to its parents?
+
+
+### Child-parent table
+If I inner join themes to itself, and use the parent id column on the left to match the id column on the right, I end up with a table of child-parent relationships.
+```{r}
+themes %>%
+  inner_join(themes, by = c("parent_id" = "id"))
+```
+Notice that Arctic Technic, under `name.x`, is now linked to its parent, Technic. Similarly, Airport is linked to its parent Model.
+
+### Adding a suffix
+I can make this a bit more readable by noticing that the `.x` is the child and `.y` is the parent, and adding a suffix argument.
+```{r}
+themes %>%
+  inner_join(themes, by = c("parent_id" = "id"), suffix = c("_child", "_parent"))
+```
+I now have a table of themes alongside the name of their parent themes, which is convenient for exploring the hierarchy of themes.
+
+### Lord of the Rings themes: parent
+For example, there are LEGO sets that are themed around the fantasy series "The Lord of the Rings". I could `filter` on `name_child` to find out what the theme's parent is. 
+```{r}
+themes %>%
+  inner_join(themes, by = c("parent_id" = "id"), suffix = c("_child", "_parent")) %>%
+  filter(name_child == "The Lord of the Rings")
+```
+This filter shows that the parent theme is called "The Hobbit and Lord of the Rings."
+
+### Lord of the Rings themes: children
+What if I wanted to find out all of the children of that theme instead? I could `filter` on the `name_parent` attribute instead. 
+```{r}
+themes %>%
+  inner_join(themes, by = c("parent_id" = "id"), suffix = c("_child", "_parent")) %>%
+  filter(name_parent == "The Lord of the Rings")
+```
+This shows that the three children of that theme are the three books in the Lord of the Rings trilogy: *The Fellowship of the Ring*, *the Two Towers*, and *the Return of the King*.
+
+### The Lord of the Rings trilogy
+Based on all this, I start to understand the shape of the data. In the exercises I'll explore these hierarchical relationships some more, and how I could use the left join verb from this chapter to discover which themes have no children.
+
+## Exercise
+### Joining themes to their children
+Tables can be joined to themselves.
+
+In the `themes` table, I'll notice there is both an `id` column and a `parent_id` column. Keeping that in mind, I can join the `themes` table to itself to determine the parent-child relationships that exist for different themes.
+
+In the last part, I saw themes joined to their own parents. In this exercise, I'll try a similar approach of joining themes to their own children, which is similar but reversed. Let's try this out to discover what children the theme `"Harry Potter"` has.
+
+- Inner join `themes` to their own children, resulting in the suffixes `"_parent"` and `"_child"`, respectively.
+- Filter this table to find the children of the "Harry Potter" theme.
+
+```{r}
+themes %>% 
+	inner_join(themes, by = c("id" = "parent_id"), suffix = c("_parent", "_child")) %>% 
+	filter(name_parent == "Harry Potter")
+```
+*It looks like the Harry Potter parent theme has a few children, which are named after the books and movies from the series.*
+
+### Joining themes to their grandchildren
+I can go a step further than looking at themes and their children. Some themes actually have *grandchildren*: their children's children.
+
+Here, I can inner join `themes` to a filtered version of itself *again* to establish a connection between the last join's children and *their* children.
+
+- Use another inner join to combine `themes` again with itself.
+  - Be sure to use the suffixes `"_parent"` and `"_grandchild"` so the columns in the resulting table are clear.
+  - Update the `by` argument to specify the correct columns to join on.
+
+```{r}
+themes %>% 
+  inner_join(themes, by = c("id" = "parent_id"), suffix = c("_parent", "_child")) %>%
+  inner_join(themes, by = c("id_child" = "parent_id"), suffix = c("_parent", "_grandchild"))
+```
+*It looks like there are 158 grandparent-grandchild relationships of LEGO themes.*
+
+### Left-joining a table to itself
+So far, I've been inner joining a table to itself in order to find the children of themes like `"Harry Potter"` or `"The Lord of the Rings"`.
+
+But some themes might not have any children at all, which means they won't be included in the inner join. As I've learned in this chapter, you can identify those with a `left_join` and a `filter()`.
+
+- Left join the themes table to its own children, with the suffixes `_parent` and `_child` respectively.
+- Filter the result of the join to find themes that have no children.
+
+```{r}
+themes %>%
+  left_join(themes, by = c("id" = "parent_id"), suffix = c("_parent", "_child")) %>%
+  filter(is.na(id_child))
+```
+*From this table, I learned that there are 586 themes in total that do not have any child themes.*
+
