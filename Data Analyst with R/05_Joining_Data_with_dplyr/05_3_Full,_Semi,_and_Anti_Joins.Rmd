@@ -1,0 +1,410 @@
+---
+title: "5-3. Full, Semi, and Anti Joins"
+output: html_notebook
+---
+
+```{r}
+library(dplyr)
+``` 
+## The full_join verb
+Here, I'll look at another of dplyr's joining verbs: *full join**.
+
+### Joining and filtering
+Let's start with the same joining and filtering that was applied in Chapter 2, where I filter for just the *Batmobile* and the *Batwing* sets.
+```{r}
+inventory_parts_joined <- inventories %>%
+  inner_join(inventory_parts, by = c("id" = "inventory_id")) %>%
+  arrange(desc(quantity)) %>%
+  select(-id, -version)
+
+batmobile <- inventory_parts_joined %>%
+  filter(set_num == "7784-1") %>%
+  select(-set_num)
+
+batwing <- inventory_parts_joined %>%
+  filter(set_num == "70916-1") %>%
+  select(-set_num)
+```
+
+### Batmobile vs. Batwing
+Recall that this results in two tables with three variables.
+```{r}
+batmobile
+```
+```{r}
+batwing
+```
+### Joining it all together
+A **left join** would keep all the observations in `batmobile`,
+```{r}
+batmobile %>%
+  left_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing"))
+```
+a **right join** would keep all the observations in `batwing.` 
+```{r}
+batmobile %>%
+  right_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing"))
+```
+A **full join** keeps all the observations in either.
+```{r}
+batmobile %>%
+  full_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing"))
+```
+All the other arguments, like `by` and `suffix`, are the same.
+
+### Full join result
+The result of full join has `NA`s in both. Notice, there are 440 observations, which is more than either of the tables had originally. When I do a full join, I'm looking at all the pieces from the Batmobile and all the pieces from the Batwing, as if I opened up the two boxes and poured them out next to each other.
+
+### Replace NA: multiple variables
+Just as I learned to do with right join in the last chapter, I can use replace `na` from the `tidyr` package to replace `NA`s in quantity `batmobile` and quantity `batwing` columns with zero. 
+```{r}
+library(tidyr)
+
+batmobile %>%
+  full_join(batwing, by = c("part_num", "color_id"), suffix = c("_batmobile", "_batwing")) %>%
+  replace_na(list(quantity_batmobile = 0,
+               quantity_batwing = 0))
+```
+Notice that I can replace `NA`s in multiple variables by separating them with commas.
+
+## Exercise
+### Differences between Batman and Star Wars
+Now, I'll compare two themes, each of which is made up of many sets.
+
+First, I'll need to join in the themes. Recall that doing so requires going through the sets first. I'll use the `inventory_parts_joined` table.
+```{r}
+inventory_parts_joined <- inventories %>%
+  inner_join(inventory_parts, by = c("id" = "inventory_id")) %>%
+  arrange(desc(quantity)) %>%
+  select(-id, -version)
+```
+
+- In order to join in the themes, I'll first need to combine the `inventory_parts_joined` and `sets` tables.
+- Then, combine the first join with the `themes` table, using the suffix argument to clarify which table each `name` came from (`"_set"` or `"_theme"`).
+
+```{r}
+inventory_parts_joined %>%
+  inner_join(sets, by = c("set_num")) %>%
+  inner_join(themes, by = c("theme_id" = "id"), suffix = c("_set", "_theme"))
+```
+*Since each theme is made up of many sets, combining these tables is the first step towards being able to compare different themes.*
+
+### Aggregating each theme
+Previously, I combined tables to compare themes. Before doing this comparison, I'll want to aggregate the data to learn more about the pieces that are a part of each theme, as well as the colors of those pieces.
+
+The table I created previously has been named as `inventory_sets_themes`. It was filtered for each theme, and the objects have been saved as `batman` and `star_wars`.
+```{r}
+inventory_sets_themes <- inventory_parts_joined %>%
+  inner_join(sets, by = "set_num") %>%
+  inner_join(themes, by = c("theme_id" = "id"), suffix = c("_set", "_theme"))
+
+batman <- inventory_sets_themes %>%
+  filter(name_theme == "Batman")
+
+star_wars <- inventory_sets_themes %>%
+  filter(name_theme == "Star Wars")
+```
+
+- Count the part number and color id for the parts in Batman and Star Wars, weighted by quantity.
+```{r}
+batman %>%
+  count(part_num, color_id, wt=quantity)
+```
+```{r}
+star_wars %>%
+  count(part_num, color_id, wt=quantity)
+```
+*Now that the information about the pieces in each of these themes is more organized, I am closer to being able to compare them to learn more about the similarities and differences between these themes.*
+
+### Full-joining Batman and Star Wars LEGO parts
+Now that I've got separate tables for the pieces in the `batman` and `star_wars` themes, I'll want to be able to combine them to see any similarities or differences between the two themes. The aggregating has been saved as `batman_parts` and `star_wars_parts`.
+```{r}
+batman_parts <- batman %>%
+  count(part_num, color_id, wt = quantity)
+
+star_wars_parts <- star_wars %>%
+  count(part_num, color_id, wt = quantity)
+```
+
+- Combine the `star_wars_parts` table with the `batman_parts` table; use the suffix argument to include the `"_batman"` and `"_star_wars"` suffixes.
+- Replace all the NA values in the `n_batman` and `n_star_wars` columns with 0s.
+```{r}
+batman_parts %>%
+  full_join(star_wars_parts, by = c("part_num", "color_id"), suffix = c("_batman", "_star_wars")) %>%
+  replace_na(list(n_batmen = 0,
+                  n_star_wars = 0))
+```
+*Now, I've created a comprehensive table that includes the part number, color id, and quantity of each piece in the Batman and Star Wars themes.*
+
+### Comparing Batman and Star Wars LEGO parts
+The table I created includes the part number of each piece, the color id, and the number of each piece in the Star Wars and Batman themes. However, I have more information about each of these parts that I can gain by combining this table with some of the information I have in other tables. Before I compare the themes, let's ensure that I have enough information to make our findings more interpretable. The table from the last exercise has been saved as `parts_joined`.
+```{r}
+parts_joined <- batman_parts %>%
+  full_join(star_wars_parts, by = c("part_num", "color_id"), suffix = c("_batman", "_star_wars")) %>%
+  replace_na(list(n_batman = 0, n_star_wars = 0))
+```
+
+- Sort the number of star wars pieces in the `parts_joined` table in descending order.
+- Inner join the `colors` table to the `parts_joined` table.
+- Combine the `parts` table to the previous join using an inner join; add `"_color"` and `"_part"` suffixes to specify whether or not the information came from the `colors` table or the `parts` table.
+```{r}
+parts_joined %>%
+  arrange(desc(n_star_wars)) %>%
+  inner_join(colors, by = c("color_id" = "id")) %>%
+  inner_join(parts, by = "part_num", suffix = c("_color", "_part"))
+```
+*I can now see the pieces side by side from each of these themes. Since the pieces are sorted by number of Star Wars pieces in descending order, I can see that the most common Star Wars piece is Black and has the part number `2780.` While there are 392 pieces of this part in the Star Wars theme, I can also see from the table that there are 104 pieces of the same part in the Batman theme.*
+
+## The semi- and anti-join verbs
+### Mutating verbs
+- `inner_join`
+- `left_join`
+- `right_join`
+- `full_join`
+
+### Review: left join
+For example, when I left joined `batmobile` and `batwing`, I ended up with a new column I did not have in `batmobile`: specifically, `quantity_batwing`.
+
+### Filtering joins
+But let's talk about a different class of verbs: **filtering joins**. A filtering join keeps or removes observations from the first table, but it doesn't add new variables. The two filtering verbs I'll be looking at are `semi_join` and `anti_join`.
+
+A `semi_join` asks the question: what observations in X are **also** in Y?
+
+And an `anti_join` asks the question: what observations in X are **not** in Y?
+
+### The semi join
+*What parts used in the Batmobile set are **also** used in the Batwing set?* 
+```{r}
+batmobile %>%
+  semi_join(batwing, by = c("color_id", "part_num"))
+```
+This semi join takes me from the 173 pieces that are in the Batmobile set and reduces it to the 45 pieces that are also in the Batwing set. But notice that I still have the same three variables- `part_num`, `color_id`, and `quantity`: that the Batmobile set started with. I kept Batmobile's quantity variable, and didn't even have to specify a suffix. This is useful for when I want to filter down a table without modifying it further.
+
+### The anti join
+The opposite of a semi join is an anti join. Anti joins ask: *what observations in the first table are **not** in the second table?* 
+```{r}
+batmobile %>%
+  anti_join(batwing, by = c("color_id", "part_num"))
+```
+In this case, what pieces are in the `batmobile` but not in the `batwing.` Notice again, I did not specify a suffix. The result tells me that there are 128 pieces in the Batmobile that are not in the Batwing.
+
+### Filtering with semi join
+These verbs aren't useful just for comparing Batman's rides. I could use them to filter down the other tables I've worked with. For example, I might want to know what themes ever appear in a set. 
+```{r}
+themes %>%
+  semi_join(sets, by = c("id" = "theme_id"))
+```
+A semi join tells me that 569 themes make at least one appearance.
+
+### Filtering with anti join
+Conversely, I could use anti join to find the themes never appear in a set in the database.
+```{r}
+themes %>%
+  anti_join(sets, by = c("id" = "theme_id"))
+```
+This filters down to the 96 that don't match to anything.
+
+## Exercise
+### Something within one set but not another
+Let's focus on the `batwing` dataset, and use skills to determine which parts are in both the `batwing` and `batmobile` sets, and which sets are in one, but not the other. While answering these questions, I'll also be determining whether or not the parts I'm looking at in both sets also have the same color in common.
+
+- Filter the batwing set for parts that are **also** in the batmobile, whether or not they have the same color.
+```{r}
+batwing %>%
+  semi_join(batmobile, by = c("part_num"))
+```
+- Filter the batwing set for parts that **aren't** also in the batmobile, whether or not they have the same color.
+```{r}
+batwing %>%
+  anti_join(batmobile, by = c("part_num"))
+```
+*Based on these joins, I now know that there are 126 parts in the `batwing` set that are **also** in the `batmobile` set, and 183 parts that are in the `batwing` set that **aren't** in the `batmobile` set.*
+
+### What colors are included in at least one set?
+Besides comparing two sets directly, I could also use a filtering join like `semi_join` to find out which colors ever appear in any inventory part. Some of the colors could be optional, meaning they aren't included in any sets.
+
+- Use the `inventory_parts` table to find the colors that are included in at least one set.
+```{r}
+colors %>% 
+  semi_join(inventory_parts, by = c("id" = "color_id"))
+```
+*Out of the 179 `colors` in the colors table, there are 134 colors that are included in at least one set.*
+
+### Which set is missing version 1?
+Each set included in the LEGO data has an associated version number. I want to understand the version I am looking at to learn more about the parts that are included. Before doing that, I should confirm that there aren't any sets that are missing a particular version.
+
+Let's start by looking at the first version of each set to see if there are any sets that don't include a first version.
+
+- Use `filter()` to extract `version` `1` from the `inventories` table; save the filter to `version_1_inventories`.
+- Use `anti_join` to combine `version_1_inventories` with `sets` to determine which set is missing a version 1.
+
+```{r}
+version_1_inventories <- inventories %>%
+  filter(version == 1)
+
+sets %>%
+  anti_join(version_1_inventories, by = "set_num")
+```
+
+## Visualizing set differences
+Let's say that instead of working with pieces, I wanted to examine and compare the colors used in each set. This will take a little effort, but it will make a great and intuitive visualization of the differences in the color palettes between the Batmobile and the Batwing.
+
+### Aggregating sets into colors
+Before doing any joining, you'll want to aggregate each set into colors. I've learned how to do this in dplyr with group by and summarize. I can create a total column equal to the sum of the quantity column. 
+```{r}
+batmobile_colors <- batmobile %>%
+  group_by(color_id) %>%
+  summarize(total = sum(quantity))
+
+batmobile_colors
+```
+
+I could do the same aggregation for both the `batmobile` and `batwing` sets. 
+```{r}
+batwing_colors <- batwing %>%
+  group_by(color_id) %>%
+  summarize(total = sum(quantity))
+
+batwing_colors
+```
+I now have two tables, one for each set, where each table has one observation per color. The tables have only the color IDs right now, but I'll be joining in the color names later.
+
+### Comparing color schemes of sets
+I can combine both tables into one table, and replace `NA`s in the total `batmobile` and total `batwing` columns. 
+```{r}
+batmobile_colors %>%
+  full_join(batwing_colors, by = "color_id", suffix = c("_batmobile", "_batwing")) %>%
+  replace_na(list(total_batmobile = 0, total_batwing = 0))
+```
+This is the format I'll want for comparing the color schemes of the two sets.
+
+### Adding the color names
+I still have only the color IDs, so I'll want to bring in the color names using an inner join, joining the color id column to the id column. 
+```{r}
+batmobile_colors %>%
+  full_join(batwing_colors, by = "color_id", suffix = c("_batmobile", "_batwing")) %>%
+  replace_na(list(total_batmobile = 0, total_batwing = 0)) %>%
+  inner_join(colors, by = c("color_id" = "id"))
+```
+There's still a little more `dplyr` processing to do before I can have a meaningful comparison of the two sets. First, the two quantities are hard to compare because the two sets have different total numbers of pieces. I'll want to normalize each of the colors, by turning them into fractions of the total.
+
+### Adding fractions
+I can add or change columns with the `mutate` verb. I can turn the columns into fractions by dividing each of the columns by its sum: `total_batmobile` divided by `sum(total_batmobile)`, and I can do the same to total `batwing.` 
+```{r}
+batmobile_colors %>%
+  full_join(batwing_colors, by = "color_id", suffix = c("_batmobile", "_batwing")) %>%
+  replace_na(list(total_batmobile = 0, total_batwing = 0)) %>%
+  inner_join(colors, by = c("color_id" = "id")) %>%
+  mutate(total_batmobile = total_batmobile / sum(total_batmobile),
+         total_batwing = total_batwing / sum(total_batwing))
+```
+Now, instead of looking at the raw number of pieces, I can see that Batmobile is 51.6 percent black pieces, while Batwing is only 39.7 percent black pieces.
+
+### The difference between fractions
+There's one more step in our comparison within the joined data. What I care about most is the difference between fractions: the Batmobile has more black pieces, and the Batwing has more dark bluish gray. I can add this in as one more step in the `mutate`: `difference = total_batmobile - total_batwing`. I'll save this object as `colors_joined`. 
+```{r}
+colors_joined <- batmobile_colors %>%
+  full_join(batwing_colors, by = "color_id", suffix = c("_batmobile", "_batwing")) %>%
+  replace_na(list(total_batmobile = 0, total_batwing = 0)) %>%
+  inner_join(colors, by = c("color_id" = "id")) %>%
+  mutate(total_batmobile = total_batmobile / sum(total_batmobile),
+         total_batwing = total_batwing / sum(total_batwing),
+         difference = total_batmobile - total_batwing)
+
+colors_joined
+```
+This has taken a lot of work. But, now that I've processed the joined data, we can easily see which colors are more represented in one set or the other.
+
+### Visualizing the data
+After processing the data, I'm ready to visualize it. 
+```{r}
+library(ggplot2)
+library(forcats)
+
+color_palette <- setNames(colors_joined$rgb, colors_joined$name)
+
+colors_joined %>%
+  mutate(name = fct_reorder(name, difference)) %>%
+  ggplot(aes(name, difference, fill = name)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(values = color_palette, guide = FALSE)
+```
+Here's the resulting bar plot. Notice that, thanks to my joining and post-processing, I've got an interpretable visualization of the comparison between the two sets. The bars on the right, like Black and Light Bluish Gray, have positive differences, meaning they're more common in the `batmobile` set. The colors on the left, like Red and Dark Bluish Gray, are more common in the `batwing.` This shows how joining two tables together can fit with other data manipulation and visualization tasks as a part of a larger data science workflow.
+
+## Exercise
+### Aggregating sets to look at their differences
+To compare two individual sets, and the kinds of LEGO pieces that comprise them, I'll need to aggregate the data into separate themes. Additionally, I'll want to add a column so that I can understand the fractions of specific pieces that are part of each set, rather than looking at the numbers of pieces alone.
+
+HEre is the `inventory_parts_themes` table.
+```{r}
+inventory_parts_themes <- inventories %>%
+  inner_join(inventory_parts, by = c("id" = "inventory_id")) %>%
+  arrange(desc(quantity)) %>%
+  select(-id, -version) %>%
+  inner_join(sets, by = "set_num") %>%
+  inner_join(themes, by = c("theme_id" = "id"), suffix = c("_set", "_theme"))
+```
+
+- Add a filter for the `"Batman"` set to create the `batman_colors` object.
+- Add a `fraction` column to `batman_colors` that displays the total divided by the sum of the total.
+```{r}
+batman_colors <- inventory_parts_themes %>%
+  filter(name_theme == "Batman") %>%
+  group_by(color_id) %>%
+  summarize(total = sum(quantity)) %>%
+  mutate(fraction = total / sum(total))
+```
+- Repeat the steps to filter and aggregate the `"Star Wars"` set data to create the `star_wars_colors` object.
+- Add a `fraction` column to `star_wars_colors` to display the fraction of the total.
+```{r}
+star_wars_colors <- inventory_parts_themes %>%
+  filter(name_theme == "Star Wars") %>%
+  group_by(color_id) %>%
+  summarize(total = sum(quantity)) %>%
+  mutate(fraction = total / sum(total))
+```
+
+### Combining sets
+Prior to visualizing the data, I'll want to combine these tables to be able to directly compare the themes' colors.
+
+- Join the `batman_colors` and `star_wars_colors` tables; be sure to include all observations from both tables.
+- Replace the NAs in the `total_batman` and `total_star_wars` columns.
+- Add a `difference` column which is the difference between `fraction_batman` and `fraction_star_wars`, and a `total` column, which is the sum of `total_batman` and `total_star_wars`.
+- Add a `filter` to select observations where `total` is at least 200.
+```{r}
+batman_colors %>%
+  full_join(star_wars_colors, by = "color_id", suffix = c("_batman", "_star_wars")) %>%
+  replace_na(list(total_batman = 0, total_star_wars = 0)) %>%
+  inner_join(colors, by = c("color_id" = "id")) %>%
+  mutate(difference = fraction_batman - fraction_star_wars,
+         total = total_batman + total_star_wars) %>%
+  filter(total >= 200)
+```
+### Visualizing the difference: Batman and Star Wars
+In the last exercise, I created `colors_joined`. Now I'll create a bar plot with one bar for each color (`name`), showing the difference in fractions.
+
+Here is the `colors_joined` table.
+
+```{r}
+colors_joined <- batman_colors %>%
+  full_join(star_wars_colors, by = "color_id", suffix = c("_batman", "_star_wars")) %>%
+  replace_na(list(total_batman = 0, total_star_wars = 0)) %>%
+  inner_join(colors, by = c("color_id" = "id")) %>%
+  mutate(difference = fraction_batman - fraction_star_wars,
+         total = total_batman + total_star_wars) %>%
+  filter(total >= 200) %>%
+  mutate(name = fct_reorder(name, difference)) 
+```
+
+- Create a bar plot using the `colors_joined` table to display the most prominent colors in the Batman and Star Wars themes, with the bars colored by their `name`.
+
+```{r}
+ggplot(colors_joined, aes(name, difference, fill = name)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(values = color_palette, guide = FALSE) +
+  labs(y = "Difference: Batman - Star Wars")
+```
+*As I can see from the plot, the Batman set has more black, yellow, and red, while the Star Wars set has more light bluish gray, white, and tan.*
+
